@@ -1,0 +1,2 @@
+# Marshall-Hub
+The Marshall Hub is a website based off "The Marshall Project" thats tracks the data of criminal justices incidents as well as keeping up with diversity reports in efforts to change our awful criminal justice system and continue to truly help the citizens and minorities of the United States by allowing them to be involved and share their opinions and come together to make a difference.
