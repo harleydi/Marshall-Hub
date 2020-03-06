@@ -114,7 +114,17 @@ CSS
 
 > Use this section to look at your project week and plan out when and what you want to do.
 
-[Untitled](https://www.notion.so/2056a4cf9b9a44d3a2bb8e209274d87c)
+| Day | Deliverables | 
+| ---- | :------: | 
+| Mar 5th | PROJECT PITCH/END POINTS |
+| Mar 6th | BUILD OUT BACKEND |
+| Mar 7th | BUILD OUT FRONT-END COMPONENTS |
+| Mar 8th | USER AUTHENTICATION |
+| Mar 9th | MVP |
+| Mar 10th | PMVP |
+| Mar 11th | PMVP |
+| Mar 12th | CSS |
+| MAr 13th | FINAL PRESENTATIONS |
 
 ---
 
