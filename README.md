@@ -60,7 +60,8 @@ The Marshall Hub *is a website based off "The Marshall Project" thats tracks th
 
 ### **ERD Model**
 
-![erd](https://media.git.generalassemb.ly/user/25135/files/71f38180-5f8e-11ea-9e73-65984da86485)
+<img width="864" alt="Screen Shot 2020-03-06 at 10 51 33 AM" src="https://media.git.generalassemb.ly/user/25135/files/7a50ba00-5f98-11ea-96a8-4aad244c1540">
+
 
 
 ### **Endpoints**
@@ -79,12 +80,6 @@ The Marshall Hub *is a website based off "The Marshall Project" thats tracks th
     - Deletes cases
 
 ---
-
-auth
-pmvp
-puedocoding
-seed data
-CSS
 
 ## **Planning**
 
