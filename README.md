@@ -7,7 +7,9 @@ The Marshall Hub *is a website based off "The Marshall Project" thats tracks th
 
 ### **Permissions**
 
-Digital assets used with full licensing and permission from [Death to Stock Photo](https://git.generalassemb.ly/sei-nyc-blizzard/project_4/blob/master), [Freepik](https://git.generalassemb.ly/sei-nyc-blizzard/project_4/blob/master), and [Unsplash](https://git.generalassemb.ly/sei-nyc-blizzard/project_4/blob/master). Custom digital design and branding by John Lansing. Digital assets stored locally and on [Imgur](https://git.generalassemb.ly/sei-nyc-blizzard/project_4/blob/master).
+    Nothing currently
+
+---
 
 ## **MVP**
 
@@ -24,6 +26,8 @@ Digital assets used with full licensing and permission from [Death to Stock Pho
 ---
 
 ### MVP Libraries
+
+---
 
 ### **MVP Client (Front End)**
 
@@ -98,6 +102,7 @@ CSS
 | Psuedocoding | Medium | 6hrs | 0hrs |
 | Seed data | Medium | 3hrs | 0hrs |
 | CSS | Medium | 8hrs | 0hrs|
+| Total | High | 50hrs | 0hrs |
 
 
 ### **Schedule**
