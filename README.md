@@ -60,7 +60,7 @@ The Marshall Hub *is a website based off "The Marshall Project" thats tracks th
 
 ### **ERD Model**
 
-<img width="864" alt="Screen Shot 2020-03-06 at 10 51 33 AM" src="https://media.git.generalassemb.ly/user/25135/files/83e81b00-5fb4-11ea-998a-4c097fb3f877">
+<img width="1137" alt="Screen Shot 2020-03-06 at 2 23 05 PM" src="https://media.git.generalassemb.ly/user/25135/files/16d58500-5fb6-11ea-966e-d16346b79cd3">
 
 
 
