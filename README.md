@@ -45,7 +45,16 @@ Digital assets used with full licensing and permission from [Death to Stock Pho
 
 ### **Component Breakdown**
 
-![digiPocket@2x](https://media.git.generalassemb.ly/user/25135/files/7750cc00-5f8e-11ea-8d8e-f14e40e82da2)
+- Header: The header will contain the navigation and logo.
+- NavBar: The navigation will provide a link to create a Hub Report and view your profile
+- Profile: This is your profile where you can control how you are presented to others.
+- Hub Report: This is where you can create a hub report.
+- Footer: The footer will show info about me and a link to my portfolio.
+- Login / Sign-up: This is where you can sign in or register.
+- Main: This is where all the changes to the page and where the state will be held.
+- App: This is the main component where state will start.
+- Home: This is the main page you will come across when you first enter the app. A news feed of all the cases.
+
 
 ### **MVP Server (Back End)**
 
@@ -73,6 +82,12 @@ Digital assets used with full licensing and permission from [Death to Stock Pho
 
 ---
 
+auth
+pmvp
+puedocoding
+seed data
+CSS
+
 ## **Planning**
 
 > You've got a little over a week to reach your Minimum Viable Product. Use these sections to plan out your approach.
@@ -81,7 +96,17 @@ Digital assets used with full licensing and permission from [Death to Stock Pho
 
 > Use this section to estimate the time necessary to build out the various sections of your project. You may include an additional priority matrix, if you desire.
 
-[Untitled](https://www.notion.so/85f49309dcbb4c2cb62431a75e2fc1e0)
+| Task | Priority | Estimated Time | Actual Time |
+| ---- | :------: | :--------------:| :----------:|
+| Add Case form | Medium | 3hrs | 0hrs |
+| Create CRUD Functionality | High | 6hrs | 0hrs |
+| Create Front-end Applications | Medium | 5hrs | 0hrs |
+| Auth | High | 9hrs | 0hrs |
+| PMVP | Medium | 10hrs | 0hrs |
+| Psuedocoding | Medium | 6hrs | 0hrs |
+| Seed data | Medium | 3hrs | 0hrs |
+| CSS | Medium | 8hrs | 0hrs|
+
 
 > Why is this necessary? Time frames are key to the development cycle. You have limited time to code your app, and your estimates can then be used to evalute possibilities of your MVP and post-MVP based on time needed. It's best you assume an additional hour for each component, as well as a few hours added to the total time, to play it safe.
 
