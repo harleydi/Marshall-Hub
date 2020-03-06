@@ -23,13 +23,11 @@ Digital assets used with full licensing and permission from [Death to Stock Pho
 
 ---
 
-[MVP Libraries](https://www.notion.so/07674141dd7246a6b6db0bba8217bc73)
+### MVP Libraries
 
 ### **MVP Client (Front End)**
 
 ### **Wireframes**
-
-> Use the Wireframes section to display desktop, tablet and mobile views.
 
 <img width="1117" alt="Screen Shot 2020-03-05 at 6 16 02 PM" src="https://media.git.generalassemb.ly/user/25135/files/8afc3280-5f8e-11ea-8e1e-52c75c70fbf4">
 
@@ -38,8 +36,6 @@ Digital assets used with full licensing and permission from [Death to Stock Pho
 <img width="1117" alt="Screen Shot 2020-03-05 at 6 28 21 PM" src="https://media.git.generalassemb.ly/user/25135/files/86377e80-5f8e-11ea-95a0-09a487ec1726">
 
 ### **Component Hierarchy**
-
-> Use this section to show your React components and the data architecture of your app.
 
 ![digiPocket@2x](https://media.git.generalassemb.ly/user/25135/files/7750cc00-5f8e-11ea-8d8e-f14e40e82da2)
 
@@ -64,8 +60,6 @@ Digital assets used with full licensing and permission from [Death to Stock Pho
 
 
 ### **Endpoints**
-
-> Use this section to list a selection of your intended endpoints and their uses. Please list any and all custom-created endpoints.
 
 - GET `/home`
     - Returns the route to the Home page
@@ -94,8 +88,6 @@ CSS
 
 ### **Timeframes**
 
-> Use this section to estimate the time necessary to build out the various sections of your project. You may include an additional priority matrix, if you desire.
-
 | Task | Priority | Estimated Time | Actual Time |
 | ---- | :------: | :--------------:| :----------:|
 | Add Case form | Medium | 3hrs | 0hrs |
@@ -108,11 +100,7 @@ CSS
 | CSS | Medium | 8hrs | 0hrs|
 
 
-> Why is this necessary? Time frames are key to the development cycle. You have limited time to code your app, and your estimates can then be used to evalute possibilities of your MVP and post-MVP based on time needed. It's best you assume an additional hour for each component, as well as a few hours added to the total time, to play it safe.
-
 ### **Schedule**
-
-> Use this section to look at your project week and plan out when and what you want to do.
 
 | Day | Deliverables | 
 | ---- | :------: | 
