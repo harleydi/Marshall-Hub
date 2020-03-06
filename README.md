@@ -31,27 +31,28 @@ Digital assets used with full licensing and permission from [Death to Stock Pho
 
 > Use the Wireframes section to display desktop, tablet and mobile views.
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/0410f9f7-9b88-40b0-9b6a-d5e7d180e353/Screen_Shot_2020-03-05_at_6.16.02_PM.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/0410f9f7-9b88-40b0-9b6a-d5e7d180e353/Screen_Shot_2020-03-05_at_6.16.02_PM.png)
+<img width="1117" alt="Screen Shot 2020-03-05 at 6 16 02 PM" src="https://media.git.generalassemb.ly/user/25135/files/8afc3280-5f8e-11ea-8e1e-52c75c70fbf4">
 
 - Desktop Landing
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/5d5b2024-3d47-41a0-b9dd-728e04bff156/Screen_Shot_2020-03-05_at_6.28.21_PM.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/5d5b2024-3d47-41a0-b9dd-728e04bff156/Screen_Shot_2020-03-05_at_6.28.21_PM.png)
+<img width="1117" alt="Screen Shot 2020-03-05 at 6 28 21 PM" src="https://media.git.generalassemb.ly/user/25135/files/86377e80-5f8e-11ea-95a0-09a487ec1726">
 
 ### **Component Hierarchy**
 
 > Use this section to show your React components and the data architecture of your app.
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/6c540f90-117d-4014-806f-0aa7115f7e37/digiPocket2x.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/6c540f90-117d-4014-806f-0aa7115f7e37/digiPocket2x.png)
+![digiPocket@2x](https://media.git.generalassemb.ly/user/25135/files/7750cc00-5f8e-11ea-8d8e-f14e40e82da2)
 
 ### **Component Breakdown**
 
-[Untitled](https://www.notion.so/4ea9937c044a4cd791892fac895949df)
+![digiPocket@2x](https://media.git.generalassemb.ly/user/25135/files/7750cc00-5f8e-11ea-8d8e-f14e40e82da2)
 
 ### **MVP Server (Back End)**
 
 ### **ERD Model**
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/1095471d-f286-47d8-8faa-37a04e5c88be/erd.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/1095471d-f286-47d8-8faa-37a04e5c88be/erd.png)
+![erd](https://media.git.generalassemb.ly/user/25135/files/71f38180-5f8e-11ea-9e73-65984da86485)
+
 
 ### **Endpoints**
 
