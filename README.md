@@ -60,23 +60,27 @@ The Marshall Hub *is a website based off "The Marshall Project" thats tracks th
 
 ### **ERD Model**
 
-<img width="864" alt="Screen Shot 2020-03-06 at 10 51 33 AM" src="https://media.git.generalassemb.ly/user/25135/files/7a50ba00-5f98-11ea-96a8-4aad244c1540">
+<img width="864" alt="Screen Shot 2020-03-06 at 1 04 16 PM" src="https://media.git.generalassemb.ly/user/25135/files/0966cd80-5fab-11ea-9fd1-200f50ff74c6">
 
 
 
 ### **Endpoints**
 
-- GET `/home`
+- GET `/`
     - Returns the route to the Home page
+- GET `/signup`
+    - Signup
+- GET `/login`
+    - Login
 - GET `/cases`
     - Returns all the cases
 - GET `/cases/:id`
     - Returns single case
-- POST `/cases/post`
+- POST `/cases`
     - Create route for a new hub report/case
-- PUT `/cases/:id/update`
+- PUT `/cases/:id`
     - Update a user by id to create an association to the ballots table
-- DELETE `/cases/:id/delete`
+- DELETE `/cases/:id`
     - Deletes cases
 
 ---
@@ -106,11 +110,11 @@ The Marshall Hub *is a website based off "The Marshall Project" thats tracks th
 | ---- | :------: | 
 | Mar 5th | PROJECT PITCH/END POINTS |
 | Mar 6th | BUILD OUT BACKEND |
-| Mar 7th | BUILD OUT FRONT-END COMPONENTS |
-| Mar 8th | USER AUTHENTICATION |
-| Mar 9th | MVP |
-| Mar 10th | PMVP |
-| Mar 11th | PMVP |
+| Mar 7th | USER AUTHENTICATION |
+| Mar 8th | ROUTING |
+| Mar 9th | FRONT-END |
+| Mar 10th | MVP |
+| Mar 11th | MVP |
 | Mar 12th | CSS |
 | Mar 13th | FINAL PRESENTATIONS |
 
