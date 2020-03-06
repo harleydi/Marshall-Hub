@@ -124,7 +124,7 @@ CSS
 | Mar 10th | PMVP |
 | Mar 11th | PMVP |
 | Mar 12th | CSS |
-| MAr 13th | FINAL PRESENTATIONS |
+| Mar 13th | FINAL PRESENTATIONS |
 
 ---
 
