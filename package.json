@@ -1,0 +1,23 @@
+{
+  "name": "Marshall-Hub",
+  "version": "1.0.0",
+  "description": "The Marshall Hub is a website based off \"The Marshall Project\" thats tracks the data of criminal justices incidents as well as keeping up with diversity reports in efforts to change our awful criminal justice system and continue to truly help the citizens and minorities of the United States by allowing them to be involved and share their opinions and come together to make a difference.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git.generalassemb.ly/harleydi/Marshall-Hub.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "pg": "^7.18.2",
+    "sequelize": "^5.21.5"
+  },
+  "devDependencies": {
+    "sequelize-cli": "^5.5.1"
+  }
+}

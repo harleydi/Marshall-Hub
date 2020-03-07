@@ -1,0 +1,17 @@
+{
+  "development": {
+    "database": "marshall_development",
+    "dialect": "postgres",
+    "operatorsAliases": false
+  },
+  "test": {
+    "database": "marshall_test",
+    "dialect": "postgres",
+    "operatorsAliases": false
+  },
+  "production": {
+    "database": "marshall_production",
+    "dialect": "postgres",
+    "operatorsAliases": false
+  }
+}
