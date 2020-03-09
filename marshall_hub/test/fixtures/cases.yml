@@ -1,0 +1,35 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  victim_name: MyString
+  victim_age: 1
+  victim_ethnic: MyString
+  incident_location: MyString
+  charges: MyString
+  description: MyText
+  detained: false
+  cops_present: 1
+  photo_url: MyString
+  officer_name: MyString
+  office_age: 1
+  officer_ethnic: MyString
+  officer_nature: MyString
+  miranda_rights: false
+  user: one
+
+two:
+  victim_name: MyString
+  victim_age: 1
+  victim_ethnic: MyString
+  incident_location: MyString
+  charges: MyString
+  description: MyText
+  detained: false
+  cops_present: 1
+  photo_url: MyString
+  officer_name: MyString
+  office_age: 1
+  officer_ethnic: MyString
+  officer_nature: MyString
+  miranda_rights: false
+  user: two
