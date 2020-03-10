@@ -13,7 +13,7 @@
         name: Faker::Name.name,
         age: Faker::Number.between(from: 18, to: 60),
         username: Faker::Name.unique.name,
-        password: 'null',
+        password: '1234567',
         email: Faker::Internet.email
     )
     20.times do

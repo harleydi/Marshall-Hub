@@ -7259,3 +7259,882 @@ puma (4.3.3) lib/puma/server.rb:682:in `handle_request'
 puma (4.3.3) lib/puma/server.rb:472:in `process_client'
 puma (4.3.3) lib/puma/server.rb:328:in `block in run'
 puma (4.3.3) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/cases" for ::1 at 2020-03-10 14:21:22 -0400
+  [1m[35m (2.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by CasesController#index as HTML
+  [1m[36mCase Load (3.0ms)[0m  [1m[34mSELECT "cases".* FROM "cases"[0m
+  ↳ app/controllers/cases_controller.rb:8:in `index'
+Completed 200 OK in 102ms (Views: 71.0ms | ActiveRecord: 17.1ms | Allocations: 19963)
+
+
+Started GET "/favicon.ico" for ::1 at 2020-03-10 14:21:22 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+actionpack (6.0.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.2.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.2.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.2.1) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.2) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.2) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+rack-cors (1.1.1) lib/rack/cors.rb:100:in `call'
+railties (6.0.2.1) lib/rails/engine.rb:526:in `call'
+puma (4.3.3) lib/puma/configuration.rb:228:in `call'
+puma (4.3.3) lib/puma/server.rb:682:in `handle_request'
+puma (4.3.3) lib/puma/server.rb:472:in `process_client'
+puma (4.3.3) lib/puma/server.rb:328:in `block in run'
+puma (4.3.3) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started POST "/signup" for ::1 at 2020-03-10 15:05:24 -0400
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+ActionController::RoutingError (No route matches [POST] "/signup"):
+  
+actionpack (6.0.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.2.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.2.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.2.1) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.2) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.2) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+rack-cors (1.1.1) lib/rack/cors.rb:100:in `call'
+railties (6.0.2.1) lib/rails/engine.rb:526:in `call'
+puma (4.3.3) lib/puma/configuration.rb:228:in `call'
+puma (4.3.3) lib/puma/server.rb:682:in `handle_request'
+puma (4.3.3) lib/puma/server.rb:472:in `process_client'
+puma (4.3.3) lib/puma/server.rb:328:in `block in run'
+puma (4.3.3) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/signup" for ::1 at 2020-03-10 15:05:29 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/signup"):
+  
+actionpack (6.0.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.2.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.2.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.2.1) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.2) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.2) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+rack-cors (1.1.1) lib/rack/cors.rb:100:in `call'
+railties (6.0.2.1) lib/rails/engine.rb:526:in `call'
+puma (4.3.3) lib/puma/configuration.rb:228:in `call'
+puma (4.3.3) lib/puma/server.rb:682:in `handle_request'
+puma (4.3.3) lib/puma/server.rb:472:in `process_client'
+puma (4.3.3) lib/puma/server.rb:328:in `block in run'
+puma (4.3.3) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/login" for ::1 at 2020-03-10 15:05:44 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/login"):
+  
+actionpack (6.0.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.2.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.2.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.2.1) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.2) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.2) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+rack-cors (1.1.1) lib/rack/cors.rb:100:in `call'
+railties (6.0.2.1) lib/rails/engine.rb:526:in `call'
+puma (4.3.3) lib/puma/configuration.rb:228:in `call'
+puma (4.3.3) lib/puma/server.rb:682:in `handle_request'
+puma (4.3.3) lib/puma/server.rb:472:in `process_client'
+puma (4.3.3) lib/puma/server.rb:328:in `block in run'
+puma (4.3.3) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/auth/login" for ::1 at 2020-03-10 15:08:16 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/auth/login"):
+  
+actionpack (6.0.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.2.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.2.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.2.1) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.2) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.2) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+rack-cors (1.1.1) lib/rack/cors.rb:100:in `call'
+railties (6.0.2.1) lib/rails/engine.rb:526:in `call'
+puma (4.3.3) lib/puma/configuration.rb:228:in `call'
+puma (4.3.3) lib/puma/server.rb:682:in `handle_request'
+puma (4.3.3) lib/puma/server.rb:472:in `process_client'
+puma (4.3.3) lib/puma/server.rb:328:in `block in run'
+puma (4.3.3) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/user" for ::1 at 2020-03-10 15:08:33 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/user"):
+  
+actionpack (6.0.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.2.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.2.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.2.1) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.2) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.2) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+rack-cors (1.1.1) lib/rack/cors.rb:100:in `call'
+railties (6.0.2.1) lib/rails/engine.rb:526:in `call'
+puma (4.3.3) lib/puma/configuration.rb:228:in `call'
+puma (4.3.3) lib/puma/server.rb:682:in `handle_request'
+puma (4.3.3) lib/puma/server.rb:472:in `process_client'
+puma (4.3.3) lib/puma/server.rb:328:in `block in run'
+puma (4.3.3) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/users" for ::1 at 2020-03-10 15:08:35 -0400
+Processing by UsersController#index as */*
+  [1m[36mUser Load (3.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:8:in `index'
+Completed 200 OK in 35ms (Views: 17.6ms | ActiveRecord: 8.6ms | Allocations: 12308)
+
+
+Started GET "/users" for ::1 at 2020-03-10 15:11:00 -0400
+Processing by UsersController#index as */*
+  [1m[36mUser Load (9.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:8:in `index'
+Completed 200 OK in 28ms (Views: 16.6ms | ActiveRecord: 9.5ms | Allocations: 3963)
+
+
+Started GET "/users" for ::1 at 2020-03-10 15:11:07 -0400
+Processing by UsersController#index as */*
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:8:in `index'
+Completed 200 OK in 15ms (Views: 14.0ms | ActiveRecord: 0.6ms | Allocations: 3947)
+
+
+Started GET "/users" for ::1 at 2020-03-10 15:11:09 -0400
+Processing by UsersController#index as */*
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:8:in `index'
+Completed 200 OK in 15ms (Views: 14.6ms | ActiveRecord: 0.5ms | Allocations: 3946)
+
+
+Started GET "/auth/verify" for ::1 at 2020-03-10 15:11:51 -0400
+Processing by AuthenticationController#verify as */*
+Completed 500 Internal Server Error in 73ms (ActiveRecord: 0.0ms | Allocations: 36457)
+
+
+  
+NoMethodError (undefined method `decode' for #<AuthenticationController:0x00007f8e29b15cd8>
+Did you mean?  decoded
+               encode):
+  
+app/controllers/application_controller.rb:18:in `authorize_request'
+Started GET "/auth/verify" for ::1 at 2020-03-10 15:11:56 -0400
+Processing by AuthenticationController#verify as */*
+Completed 500 Internal Server Error in 99ms (ActiveRecord: 0.0ms | Allocations: 36425)
+
+
+  
+NoMethodError (undefined method `decode' for #<AuthenticationController:0x00007f8e2cb45ef8>
+Did you mean?  decoded
+               encode):
+  
+app/controllers/application_controller.rb:18:in `authorize_request'
+Started GET "/auth/verify" for ::1 at 2020-03-10 15:27:30 -0400
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by AuthenticationController#verify as */*
+Completed 500 Internal Server Error in 100ms (ActiveRecord: 0.0ms | Allocations: 36475)
+
+
+  
+NoMethodError (undefined method `decode' for #<AuthenticationController:0x00007f99a60884e0>
+Did you mean?  decoded
+               encode):
+  
+app/controllers/application_controller.rb:18:in `authorize_request'
+Started GET "/auth/verify" for ::1 at 2020-03-10 15:29:39 -0400
+Processing by AuthenticationController#verify as */*
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 570)
+
+
+  
+NoMethodError (undefined method `messge' for #<JWT::VerificationError: Signature verification raised>
+Did you mean?  message):
+  
+app/controllers/application_controller.rb:23:in `rescue in authorize_request'
+app/controllers/application_controller.rb:17:in `authorize_request'
+Started GET "/auth/verify" for ::1 at 2020-03-10 15:30:03 -0400
+Processing by AuthenticationController#verify as */*
+Completed 500 Internal Server Error in 149ms (ActiveRecord: 0.0ms | Allocations: 71637)
+
+
+  
+NameError (undefined local variable or method `unauthorized' for #<AuthenticationController:0x00007f99a37ddd38>):
+  
+app/controllers/application_controller.rb:23:in `rescue in authorize_request'
+app/controllers/application_controller.rb:17:in `authorize_request'
+Started GET "/auth/verify" for ::1 at 2020-03-10 15:30:28 -0400
+Processing by AuthenticationController#verify as */*
+Filter chain halted as :authorize_request rendered or redirected
+Completed 401 Unauthorized in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 249)
+
+
+Started GET "/users" for ::1 at 2020-03-10 15:32:06 -0400
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:8:in `index'
+Completed 200 OK in 137ms (Views: 13.6ms | ActiveRecord: 4.6ms | Allocations: 12191)
+
+
+Started POST "/users" for ::1 at 2020-03-10 15:34:33 -0400
+Processing by UsersController#create as */*
+Completed 400 Bad Request in 1ms (ActiveRecord: 0.0ms | Allocations: 126)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: user):
+  
+app/controllers/users_controller.rb:50:in `user_params'
+app/controllers/users_controller.rb:19:in `create'
+Started POST "/users" for ::1 at 2020-03-10 15:34:59 -0400
+Processing by UsersController#create as */*
+Completed 400 Bad Request in 0ms (ActiveRecord: 0.0ms | Allocations: 121)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: user):
+  
+app/controllers/users_controller.rb:50:in `user_params'
+app/controllers/users_controller.rb:19:in `create'
+Started POST "/users" for ::1 at 2020-03-10 15:35:27 -0400
+Processing by UsersController#create as */*
+  Parameters: {"digiCode"=>100, "name"=>"Tosha Franecki", "age"=>60, "username"=>"username", "password"=>"[FILTERED]", "email"=>"email@email.com", "user"=>{"digiCode"=>100, "name"=>"Tosha Franecki", "age"=>60, "username"=>"username", "password"=>"[FILTERED]", "email"=>"email@email.com"}}
+Completed 500 Internal Server Error in 233ms (ActiveRecord: 0.0ms | Allocations: 2412)
+
+
+  
+NoMethodError (undefined method `password_digest=' for #<User:0x00007f99a293d828>
+Did you mean?  password=):
+  
+app/controllers/users_controller.rb:19:in `create'
+Started POST "/users" for ::1 at 2020-03-10 15:38:26 -0400
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by UsersController#create as */*
+  Parameters: {"digiCode"=>100, "name"=>"Tosha Franecki", "age"=>60, "username"=>"username", "password"=>"[FILTERED]", "email"=>"email@email.com", "user"=>{"digiCode"=>100, "name"=>"Tosha Franecki", "age"=>60, "username"=>"username", "password"=>"[FILTERED]", "email"=>"email@email.com"}}
+Completed 500 Internal Server Error in 242ms (ActiveRecord: 3.7ms | Allocations: 7767)
+
+
+  
+NoMethodError (undefined method `password_digest=' for #<User:0x00007fbcdb5bf7d0>
+Did you mean?  password=):
+  
+app/controllers/users_controller.rb:19:in `create'
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (2.8ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  [1m[35m (109.9ms)[0m  [1m[35mDROP DATABASE IF EXISTS "marshall_hub_development"[0m
+  [1m[35m (44.2ms)[0m  [1m[35mDROP DATABASE IF EXISTS "marshall_hub_test"[0m
+  [1m[35m (223.1ms)[0m  [1m[35mCREATE DATABASE "marshall_hub_development" ENCODING = 'unicode'[0m
+  [1m[35m (115.9ms)[0m  [1m[35mCREATE DATABASE "marshall_hub_test" ENCODING = 'unicode'[0m
+  [1m[35mSQL (1.0ms)[0m  [1m[35mCREATE EXTENSION IF NOT EXISTS "plpgsql"[0m
+  [1m[35m (0.5ms)[0m  [1m[35mDROP TABLE IF EXISTS "cases" CASCADE[0m
+  [1m[35m (13.1ms)[0m  [1m[35mCREATE TABLE "cases" ("id" bigserial primary key, "victim_name" character varying, "victim_age" integer, "victim_ethnic" character varying, "incident_location" character varying, "charges" character varying, "description" text, "detained" boolean, "cops_present" integer, "photo_url" character varying, "officer_name" character varying, "office_age" integer, "officer_ethnic" character varying, "officer_nature" character varying, "miranda_rights" boolean, "user_id" bigint NOT NULL, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[35m (2.9ms)[0m  [1m[35mCREATE  INDEX  "index_cases_on_user_id" ON "cases"  ("user_id")[0m
+  [1m[35m (0.2ms)[0m  [1m[35mDROP TABLE IF EXISTS "comments" CASCADE[0m
+  [1m[35m (3.5ms)[0m  [1m[35mCREATE TABLE "comments" ("id" bigserial primary key, "title" character varying, "body" text, "user_id" bigint NOT NULL, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL, "case_id" bigint NOT NULL)[0m
+  [1m[35m (1.0ms)[0m  [1m[35mCREATE  INDEX  "index_comments_on_case_id" ON "comments"  ("case_id")[0m
+  [1m[35m (1.0ms)[0m  [1m[35mCREATE  INDEX  "index_comments_on_user_id" ON "comments"  ("user_id")[0m
+  [1m[35m (0.2ms)[0m  [1m[35mDROP TABLE IF EXISTS "users" CASCADE[0m
+  [1m[35m (3.2ms)[0m  [1m[35mCREATE TABLE "users" ("id" bigserial primary key, "digiCode" integer, "name" character varying, "age" integer, "username" character varying, "password" character varying, "email" character varying, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[35m (5.7ms)[0m  [1m[35mALTER TABLE "cases" ADD CONSTRAINT "fk_rails_5b2f8d9aa6"
+FOREIGN KEY ("user_id")
+  REFERENCES "users" ("id")
+[0m
+  [1m[35m (1.3ms)[0m  [1m[35mALTER TABLE "comments" ADD CONSTRAINT "fk_rails_4627bbc75b"
+FOREIGN KEY ("case_id")
+  REFERENCES "cases" ("id")
+[0m
+  [1m[35m (1.2ms)[0m  [1m[35mALTER TABLE "comments" ADD CONSTRAINT "fk_rails_03de2dc08c"
+FOREIGN KEY ("user_id")
+  REFERENCES "users" ("id")
+[0m
+  [1m[35m (3.6ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL PRIMARY KEY)[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (1.4ms)[0m  [1m[32mINSERT INTO "schema_migrations" (version) VALUES (20200308151524)[0m
+  [1m[35m (0.7ms)[0m  [1m[32mINSERT INTO "schema_migrations" (version) VALUES
+(20200307235101),
+(20200307235118),
+(20200307235140);
+
+[0m
+  [1m[35m (2.4ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" character varying NOT NULL PRIMARY KEY, "value" character varying, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.8ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.7ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "environment"], ["value", "development"], ["created_at", "2020-03-10 19:41:58.485083"], ["updated_at", "2020-03-10 19:41:58.485083"]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "schema_sha1"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.3ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "schema_sha1"], ["value", "3582c283969d7c5af9e182295f46c416fb908397"], ["created_at", "2020-03-10 19:41:58.494255"], ["updated_at", "2020-03-10 19:41:58.494255"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[35mCREATE EXTENSION IF NOT EXISTS "plpgsql"[0m
+  [1m[35m (0.3ms)[0m  [1m[35mDROP TABLE IF EXISTS "cases" CASCADE[0m
+  [1m[35m (9.8ms)[0m  [1m[35mCREATE TABLE "cases" ("id" bigserial primary key, "victim_name" character varying, "victim_age" integer, "victim_ethnic" character varying, "incident_location" character varying, "charges" character varying, "description" text, "detained" boolean, "cops_present" integer, "photo_url" character varying, "officer_name" character varying, "office_age" integer, "officer_ethnic" character varying, "officer_nature" character varying, "miranda_rights" boolean, "user_id" bigint NOT NULL, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[35m (3.2ms)[0m  [1m[35mCREATE  INDEX  "index_cases_on_user_id" ON "cases"  ("user_id")[0m
+  [1m[35m (0.2ms)[0m  [1m[35mDROP TABLE IF EXISTS "comments" CASCADE[0m
+  [1m[35m (3.5ms)[0m  [1m[35mCREATE TABLE "comments" ("id" bigserial primary key, "title" character varying, "body" text, "user_id" bigint NOT NULL, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL, "case_id" bigint NOT NULL)[0m
+  [1m[35m (1.1ms)[0m  [1m[35mCREATE  INDEX  "index_comments_on_case_id" ON "comments"  ("case_id")[0m
+  [1m[35m (1.3ms)[0m  [1m[35mCREATE  INDEX  "index_comments_on_user_id" ON "comments"  ("user_id")[0m
+  [1m[35m (0.2ms)[0m  [1m[35mDROP TABLE IF EXISTS "users" CASCADE[0m
+  [1m[35m (3.7ms)[0m  [1m[35mCREATE TABLE "users" ("id" bigserial primary key, "digiCode" integer, "name" character varying, "age" integer, "username" character varying, "password" character varying, "email" character varying, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[35m (2.4ms)[0m  [1m[35mALTER TABLE "cases" ADD CONSTRAINT "fk_rails_5b2f8d9aa6"
+FOREIGN KEY ("user_id")
+  REFERENCES "users" ("id")
+[0m
+  [1m[35m (1.5ms)[0m  [1m[35mALTER TABLE "comments" ADD CONSTRAINT "fk_rails_4627bbc75b"
+FOREIGN KEY ("case_id")
+  REFERENCES "cases" ("id")
+[0m
+  [1m[35m (1.5ms)[0m  [1m[35mALTER TABLE "comments" ADD CONSTRAINT "fk_rails_03de2dc08c"
+FOREIGN KEY ("user_id")
+  REFERENCES "users" ("id")
+[0m
+  [1m[35m (2.5ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL PRIMARY KEY)[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.7ms)[0m  [1m[32mINSERT INTO "schema_migrations" (version) VALUES (20200308151524)[0m
+  [1m[35m (0.4ms)[0m  [1m[32mINSERT INTO "schema_migrations" (version) VALUES
+(20200307235101),
+(20200307235118),
+(20200307235140);
+
+[0m
+  [1m[35m (2.8ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" character varying NOT NULL PRIMARY KEY, "value" character varying, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.4ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "environment"], ["value", "development"], ["created_at", "2020-03-10 19:41:58.586588"], ["updated_at", "2020-03-10 19:41:58.586588"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mActiveRecord::InternalMetadata Update (0.5ms)[0m  [1m[33mUPDATE "ar_internal_metadata" SET "value" = $1, "updated_at" = $2 WHERE "ar_internal_metadata"."key" = $3[0m  [["value", "test"], ["updated_at", "2020-03-10 19:41:58.592470"], ["key", "environment"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "schema_sha1"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.5ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "schema_sha1"], ["value", "3582c283969d7c5af9e182295f46c416fb908397"], ["created_at", "2020-03-10 19:41:58.597978"], ["updated_at", "2020-03-10 19:41:58.597978"]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  [1m[35m (47.5ms)[0m  [1m[35mDROP DATABASE IF EXISTS "marshall_hub_development"[0m
+  [1m[35m (38.2ms)[0m  [1m[35mDROP DATABASE IF EXISTS "marshall_hub_test"[0m
+  [1m[35m (172.5ms)[0m  [1m[35mCREATE DATABASE "marshall_hub_development" ENCODING = 'unicode'[0m
+  [1m[35m (120.8ms)[0m  [1m[35mCREATE DATABASE "marshall_hub_test" ENCODING = 'unicode'[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[35mCREATE EXTENSION IF NOT EXISTS "plpgsql"[0m
+  [1m[35m (0.2ms)[0m  [1m[35mDROP TABLE IF EXISTS "cases" CASCADE[0m
+  [1m[35m (18.6ms)[0m  [1m[35mCREATE TABLE "cases" ("id" bigserial primary key, "victim_name" character varying, "victim_age" integer, "victim_ethnic" character varying, "incident_location" character varying, "charges" character varying, "description" text, "detained" boolean, "cops_present" integer, "photo_url" character varying, "officer_name" character varying, "office_age" integer, "officer_ethnic" character varying, "officer_nature" character varying, "miranda_rights" boolean, "user_id" bigint NOT NULL, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[35m (1.0ms)[0m  [1m[35mCREATE  INDEX  "index_cases_on_user_id" ON "cases"  ("user_id")[0m
+  [1m[35m (0.1ms)[0m  [1m[35mDROP TABLE IF EXISTS "comments" CASCADE[0m
+  [1m[35m (2.9ms)[0m  [1m[35mCREATE TABLE "comments" ("id" bigserial primary key, "title" character varying, "body" text, "user_id" bigint NOT NULL, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL, "case_id" bigint NOT NULL)[0m
+  [1m[35m (1.1ms)[0m  [1m[35mCREATE  INDEX  "index_comments_on_case_id" ON "comments"  ("case_id")[0m
+  [1m[35m (1.0ms)[0m  [1m[35mCREATE  INDEX  "index_comments_on_user_id" ON "comments"  ("user_id")[0m
+  [1m[35m (0.2ms)[0m  [1m[35mDROP TABLE IF EXISTS "users" CASCADE[0m
+  [1m[35m (2.4ms)[0m  [1m[35mCREATE TABLE "users" ("id" bigserial primary key, "digiCode" integer, "name" character varying, "age" integer, "username" character varying, "password" character varying, "email" character varying, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[35m (1.6ms)[0m  [1m[35mALTER TABLE "cases" ADD CONSTRAINT "fk_rails_5b2f8d9aa6"
+FOREIGN KEY ("user_id")
+  REFERENCES "users" ("id")
+[0m
+  [1m[35m (1.1ms)[0m  [1m[35mALTER TABLE "comments" ADD CONSTRAINT "fk_rails_4627bbc75b"
+FOREIGN KEY ("case_id")
+  REFERENCES "cases" ("id")
+[0m
+  [1m[35m (0.9ms)[0m  [1m[35mALTER TABLE "comments" ADD CONSTRAINT "fk_rails_03de2dc08c"
+FOREIGN KEY ("user_id")
+  REFERENCES "users" ("id")
+[0m
+  [1m[35m (2.1ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL PRIMARY KEY)[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.5ms)[0m  [1m[32mINSERT INTO "schema_migrations" (version) VALUES (20200308151524)[0m
+  [1m[35m (0.3ms)[0m  [1m[32mINSERT INTO "schema_migrations" (version) VALUES
+(20200307235101),
+(20200307235118),
+(20200307235140);
+
+[0m
+  [1m[35m (2.1ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" character varying NOT NULL PRIMARY KEY, "value" character varying, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.5ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "environment"], ["value", "development"], ["created_at", "2020-03-10 19:42:54.001993"], ["updated_at", "2020-03-10 19:42:54.001993"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "schema_sha1"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.2ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "schema_sha1"], ["value", "3582c283969d7c5af9e182295f46c416fb908397"], ["created_at", "2020-03-10 19:42:54.010625"], ["updated_at", "2020-03-10 19:42:54.010625"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[35mCREATE EXTENSION IF NOT EXISTS "plpgsql"[0m
+  [1m[35m (0.2ms)[0m  [1m[35mDROP TABLE IF EXISTS "cases" CASCADE[0m
+  [1m[35m (6.4ms)[0m  [1m[35mCREATE TABLE "cases" ("id" bigserial primary key, "victim_name" character varying, "victim_age" integer, "victim_ethnic" character varying, "incident_location" character varying, "charges" character varying, "description" text, "detained" boolean, "cops_present" integer, "photo_url" character varying, "officer_name" character varying, "office_age" integer, "officer_ethnic" character varying, "officer_nature" character varying, "miranda_rights" boolean, "user_id" bigint NOT NULL, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[35m (1.0ms)[0m  [1m[35mCREATE  INDEX  "index_cases_on_user_id" ON "cases"  ("user_id")[0m
+  [1m[35m (0.2ms)[0m  [1m[35mDROP TABLE IF EXISTS "comments" CASCADE[0m
+  [1m[35m (2.8ms)[0m  [1m[35mCREATE TABLE "comments" ("id" bigserial primary key, "title" character varying, "body" text, "user_id" bigint NOT NULL, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL, "case_id" bigint NOT NULL)[0m
+  [1m[35m (1.0ms)[0m  [1m[35mCREATE  INDEX  "index_comments_on_case_id" ON "comments"  ("case_id")[0m
+  [1m[35m (1.0ms)[0m  [1m[35mCREATE  INDEX  "index_comments_on_user_id" ON "comments"  ("user_id")[0m
+  [1m[35m (0.1ms)[0m  [1m[35mDROP TABLE IF EXISTS "users" CASCADE[0m
+  [1m[35m (2.9ms)[0m  [1m[35mCREATE TABLE "users" ("id" bigserial primary key, "digiCode" integer, "name" character varying, "age" integer, "username" character varying, "password" character varying, "email" character varying, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[35m (1.8ms)[0m  [1m[35mALTER TABLE "cases" ADD CONSTRAINT "fk_rails_5b2f8d9aa6"
+FOREIGN KEY ("user_id")
+  REFERENCES "users" ("id")
+[0m
+  [1m[35m (1.1ms)[0m  [1m[35mALTER TABLE "comments" ADD CONSTRAINT "fk_rails_4627bbc75b"
+FOREIGN KEY ("case_id")
+  REFERENCES "cases" ("id")
+[0m
+  [1m[35m (1.1ms)[0m  [1m[35mALTER TABLE "comments" ADD CONSTRAINT "fk_rails_03de2dc08c"
+FOREIGN KEY ("user_id")
+  REFERENCES "users" ("id")
+[0m
+  [1m[35m (2.5ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL PRIMARY KEY)[0m
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.4ms)[0m  [1m[32mINSERT INTO "schema_migrations" (version) VALUES (20200308151524)[0m
+  [1m[35m (0.3ms)[0m  [1m[32mINSERT INTO "schema_migrations" (version) VALUES
+(20200307235101),
+(20200307235118),
+(20200307235140);
+
+[0m
+  [1m[35m (2.4ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" character varying NOT NULL PRIMARY KEY, "value" character varying, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.4ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "environment"], ["value", "development"], ["created_at", "2020-03-10 19:42:54.091861"], ["updated_at", "2020-03-10 19:42:54.091861"]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mActiveRecord::InternalMetadata Update (0.2ms)[0m  [1m[33mUPDATE "ar_internal_metadata" SET "value" = $1, "updated_at" = $2 WHERE "ar_internal_metadata"."key" = $3[0m  [["value", "test"], ["updated_at", "2020-03-10 19:42:54.097257"], ["key", "environment"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "schema_sha1"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.2ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "schema_sha1"], ["value", "3582c283969d7c5af9e182295f46c416fb908397"], ["created_at", "2020-03-10 19:42:54.101890"], ["updated_at", "2020-03-10 19:42:54.101890"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  [1m[35m (39.2ms)[0m  [1m[35mDROP DATABASE IF EXISTS "marshall_hub_development"[0m
+  [1m[35m (49.3ms)[0m  [1m[35mDROP DATABASE IF EXISTS "marshall_hub_test"[0m
+  [1m[35m (87.1ms)[0m  [1m[35mCREATE DATABASE "marshall_hub_development" ENCODING = 'unicode'[0m
+  [1m[35m (77.4ms)[0m  [1m[35mCREATE DATABASE "marshall_hub_test" ENCODING = 'unicode'[0m
+  [1m[35m (31.2ms)[0m  [1m[35mDROP DATABASE IF EXISTS "marshall_hub_development"[0m
+  [1m[35m (29.8ms)[0m  [1m[35mDROP DATABASE IF EXISTS "marshall_hub_test"[0m
+  [1m[35m (75.6ms)[0m  [1m[35mCREATE DATABASE "marshall_hub_development" ENCODING = 'unicode'[0m
+  [1m[35m (80.1ms)[0m  [1m[35mCREATE DATABASE "marshall_hub_test" ENCODING = 'unicode'[0m
+  [1m[35m (4.8ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL PRIMARY KEY)[0m
+  [1m[35m (2.5ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" character varying NOT NULL PRIMARY KEY, "value" character varying, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT pg_try_advisory_lock(4090471579707813300)[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateUsers (20200307235101)
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (3.9ms)[0m  [1m[35mCREATE TABLE "users" ("id" bigserial primary key, "digiCode" integer, "name" character varying, "age" integer, "username" character varying, "password_digest" character varying, "email" character varying, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[36mprimary::SchemaMigration Create (0.4ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20200307235101"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+Migrating to CreateCases (20200307235118)
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (4.4ms)[0m  [1m[35mCREATE TABLE "cases" ("id" bigserial primary key, "victim_name" character varying, "victim_age" integer, "victim_ethnic" character varying, "incident_location" character varying, "charges" character varying, "description" text, "detained" boolean, "cops_present" integer, "photo_url" character varying, "officer_name" character varying, "office_age" integer, "officer_ethnic" character varying, "officer_nature" character varying, "miranda_rights" boolean, "user_id" bigint NOT NULL, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL, CONSTRAINT "fk_rails_5b2f8d9aa6"
+FOREIGN KEY ("user_id")
+  REFERENCES "users" ("id")
+)[0m
+  [1m[35m (1.2ms)[0m  [1m[35mCREATE  INDEX  "index_cases_on_user_id" ON "cases"  ("user_id")[0m
+  [1m[36mprimary::SchemaMigration Create (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20200307235118"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+Migrating to CreateComments (20200307235140)
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (3.7ms)[0m  [1m[35mCREATE TABLE "comments" ("id" bigserial primary key, "title" character varying, "body" text, "user_id" bigint NOT NULL, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL, CONSTRAINT "fk_rails_03de2dc08c"
+FOREIGN KEY ("user_id")
+  REFERENCES "users" ("id")
+)[0m
+  [1m[35m (0.9ms)[0m  [1m[35mCREATE  INDEX  "index_comments_on_user_id" ON "comments"  ("user_id")[0m
+  [1m[36mprimary::SchemaMigration Create (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20200307235140"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+Migrating to AddCasesToComments (20200308151524)
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (1.5ms)[0m  [1m[35mALTER TABLE "comments" ADD "case_id" bigint NOT NULL[0m
+  [1m[35m (0.9ms)[0m  [1m[35mCREATE  INDEX  "index_comments_on_case_id" ON "comments"  ("case_id")[0m
+  [1m[35m (1.0ms)[0m  [1m[35mALTER TABLE "comments" ADD CONSTRAINT "fk_rails_4627bbc75b"
+FOREIGN KEY ("case_id")
+  REFERENCES "cases" ("id")
+[0m
+  [1m[36mprimary::SchemaMigration Create (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20200308151524"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.4ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mActiveRecord::InternalMetadata Create (2.8ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "environment"], ["value", "development"], ["created_at", "2020-03-10 19:44:19.967176"], ["updated_at", "2020-03-10 19:44:19.967176"]]
+  [1m[35m (0.8ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_advisory_unlock(4090471579707813300)[0m
+  [1m[35m (1.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists? (2.3ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "Miss Silas Kunze"], ["LIMIT", 1]]
+  [1m[36mUser Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "burl@kilback.com"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.7ms)[0m  [1m[32mINSERT INTO "users" ("digiCode", "name", "age", "username", "password_digest", "email", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["digiCode", 2641], ["name", "Wilfred McDermott"], ["age", 33], ["username", "Miss Silas Kunze"], ["password_digest", "$2a$12$fYJP9XpHIHjC10WEoxebMO8Ccm0IdTfVs4hlyM1QTgnHdH.r214iC"], ["email", "burl@kilback.com"], ["created_at", "2020-03-10 19:44:38.629927"], ["updated_at", "2020-03-10 19:44:38.629927"]]
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCase Create (2.2ms)[0m  [1m[32mINSERT INTO "cases" ("victim_name", "victim_age", "victim_ethnic", "incident_location", "charges", "description", "detained", "cops_present", "photo_url", "officer_name", "office_age", "officer_ethnic", "officer_nature", "miranda_rights", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14, $15, $16, $17) RETURNING "id"[0m  [["victim_name", "Roxann Miller"], ["victim_age", 46], ["victim_ethnic", "Asian"], ["incident_location", "Autumn Estates"], ["charges", "Arts"], ["description", "Veritatis quia mollitia. Praesentium rerum voluptatem. Magni sint est. Voluptas sint exercitationem. Nesciunt exercitationem harum."], ["detained", true], ["cops_present", 4], ["photo_url", "https://placehold.it/50x50.png"], ["officer_name", "Dallas Marks"], ["office_age", 24], ["officer_ethnic", "White"], ["officer_nature", "hang"], ["miranda_rights", false], ["user_id", 1], ["created_at", "2020-03-10 19:44:38.733891"], ["updated_at", "2020-03-10 19:44:38.733891"]]
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "Dr. Jonnie Goyette"], ["LIMIT", 1]]
+  [1m[36mUser Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "cora@croninharris.info"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("digiCode", "name", "age", "username", "password_digest", "email", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["digiCode", 2812], ["name", "Jonathan Ferry"], ["age", 21], ["username", "Dr. Jonnie Goyette"], ["password_digest", "$2a$12$33YcsHpD.QhWe0D55vnNPuPeE43hnnnoo3Uidm1uZEv19xNLGClTO"], ["email", "cora@croninharris.info"], ["created_at", "2020-03-10 19:44:38.954541"], ["updated_at", "2020-03-10 19:44:38.954541"]]
+  [1m[35m (1.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCase Create (0.3ms)[0m  [1m[32mINSERT INTO "cases" ("victim_name", "victim_age", "victim_ethnic", "incident_location", "charges", "description", "detained", "cops_present", "photo_url", "officer_name", "office_age", "officer_ethnic", "officer_nature", "miranda_rights", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14, $15, $16, $17) RETURNING "id"[0m  [["victim_name", "Maryjane Prosacco"], ["victim_age", 14], ["victim_ethnic", "Black or African American"], ["incident_location", "Autumn Square"], ["charges", "Biomedical Science"], ["description", "Vel totam saepe. Porro occaecati earum. Ad aut velit. Quia temporibus veritatis. Eum itaque et."], ["detained", true], ["cops_present", 4], ["photo_url", "https://placehold.it/50x50.png"], ["officer_name", "Elayne Christiansen"], ["office_age", 43], ["officer_ethnic", "White"], ["officer_nature", "sow"], ["miranda_rights", true], ["user_id", 2], ["created_at", "2020-03-10 19:44:38.974411"], ["updated_at", "2020-03-10 19:44:38.974411"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "Terrell Stiedemann"], ["LIMIT", 1]]
+  [1m[36mUser Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "katharyn@cainmoriette.com"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("digiCode", "name", "age", "username", "password_digest", "email", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["digiCode", 2807], ["name", "Ezra Rosenbaum"], ["age", 50], ["username", "Terrell Stiedemann"], ["password_digest", "$2a$12$anj24qOMgqEyc.s26EwteOUMuoHE9Eh/Y9G0PLBTzKkgAns/UoNjO"], ["email", "katharyn@cainmoriette.com"], ["created_at", "2020-03-10 19:44:39.191880"], ["updated_at", "2020-03-10 19:44:39.191880"]]
+  [1m[35m (1.8ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCase Create (0.4ms)[0m  [1m[32mINSERT INTO "cases" ("victim_name", "victim_age", "victim_ethnic", "incident_location", "charges", "description", "detained", "cops_present", "photo_url", "officer_name", "office_age", "officer_ethnic", "officer_nature", "miranda_rights", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14, $15, $16, $17) RETURNING "id"[0m  [["victim_name", "Doloris Mayer V"], ["victim_age", 48], ["victim_ethnic", "Black or African American"], ["incident_location", "University Pointe"], ["charges", "Forensic Science"], ["description", "Iste corporis officia. Quia id culpa. Pariatur autem ab. Autem et sapiente. Accusamus quasi aperiam."], ["detained", true], ["cops_present", 2], ["photo_url", "https://placehold.it/50x50.png"], ["officer_name", "Lenard Kunze"], ["office_age", 28], ["officer_ethnic", "American Indian or Alaska Native"], ["officer_nature", "cry"], ["miranda_rights", false], ["user_id", 3], ["created_at", "2020-03-10 19:44:39.210569"], ["updated_at", "2020-03-10 19:44:39.210569"]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "Emilee Spencer II"], ["LIMIT", 1]]
+  [1m[36mUser Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "mason_bartell@ernsersteuber.co"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("digiCode", "name", "age", "username", "password_digest", "email", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["digiCode", 2473], ["name", "Lilia Reichert"], ["age", 58], ["username", "Emilee Spencer II"], ["password_digest", "$2a$12$Uhdjn0jY1HvSCtR45f0dfuHst2tmwkH9DmxcV3Xs.QYB1S3VQP29m"], ["email", "mason_bartell@ernsersteuber.co"], ["created_at", "2020-03-10 19:44:39.431875"], ["updated_at", "2020-03-10 19:44:39.431875"]]
+  [1m[35m (1.8ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCase Create (0.3ms)[0m  [1m[32mINSERT INTO "cases" ("victim_name", "victim_age", "victim_ethnic", "incident_location", "charges", "description", "detained", "cops_present", "photo_url", "officer_name", "office_age", "officer_ethnic", "officer_nature", "miranda_rights", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14, $15, $16, $17) RETURNING "id"[0m  [["victim_name", "Jamison Daniel I"], ["victim_age", 28], ["victim_ethnic", "Black or African American"], ["incident_location", "Paradise Crossing"], ["charges", "Architectural Technology"], ["description", "Rerum qui sequi. Id et est. Nulla dolores aut. Dolor autem sed. Libero iusto incidunt."], ["detained", false], ["cops_present", 3], ["photo_url", "https://placehold.it/50x50.png"], ["officer_name", "Coralee Cronin"], ["office_age", 31], ["officer_ethnic", "Asian"], ["officer_nature", "accept"], ["miranda_rights", false], ["user_id", 4], ["created_at", "2020-03-10 19:44:39.450936"], ["updated_at", "2020-03-10 19:44:39.450936"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "Modesta Abbott"], ["LIMIT", 1]]
+  [1m[36mUser Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "ginger@hayesemard.biz"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("digiCode", "name", "age", "username", "password_digest", "email", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["digiCode", 1526], ["name", "Mr. Edgar Haley"], ["age", 38], ["username", "Modesta Abbott"], ["password_digest", "$2a$12$DTjd0m6S1NvPAk3jL82NceVNMkbMd7basCtxm2b/BaMBsI8pzk2xG"], ["email", "ginger@hayesemard.biz"], ["created_at", "2020-03-10 19:44:39.668524"], ["updated_at", "2020-03-10 19:44:39.668524"]]
+  [1m[35m (1.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCase Create (0.3ms)[0m  [1m[32mINSERT INTO "cases" ("victim_name", "victim_age", "victim_ethnic", "incident_location", "charges", "description", "detained", "cops_present", "photo_url", "officer_name", "office_age", "officer_ethnic", "officer_nature", "miranda_rights", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14, $15, $16, $17) RETURNING "id"[0m  [["victim_name", "Khadijah Dickinson"], ["victim_age", 40], ["victim_ethnic", "Asian"], ["incident_location", "Autumn Heights"], ["charges", "Creative Arts"], ["description", "Doloremque magnam suscipit. Porro nostrum dolorum. Praesentium nisi molestias. Laborum sed culpa. Non itaque consequatur."], ["detained", true], ["cops_present", 2], ["photo_url", "https://placehold.it/50x50.png"], ["officer_name", "Ariel Johnson V"], ["office_age", 58], ["officer_ethnic", "White"], ["officer_nature", "disturb"], ["miranda_rights", true], ["user_id", 5], ["created_at", "2020-03-10 19:44:39.690164"], ["updated_at", "2020-03-10 19:44:39.690164"]]
+  [1m[35m (1.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "Maye Reichert DVM"], ["LIMIT", 1]]
+  [1m[36mUser Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "noah@bergstrom.co"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("digiCode", "name", "age", "username", "password_digest", "email", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["digiCode", 1942], ["name", "Carey Runolfsdottir I"], ["age", 40], ["username", "Maye Reichert DVM"], ["password_digest", "$2a$12$8gVh4MMcDK420qAcONZUouyfozfC7EQUcqpzAla4utWyvsW23fUSW"], ["email", "noah@bergstrom.co"], ["created_at", "2020-03-10 19:44:39.907989"], ["updated_at", "2020-03-10 19:44:39.907989"]]
+  [1m[35m (1.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCase Create (0.3ms)[0m  [1m[32mINSERT INTO "cases" ("victim_name", "victim_age", "victim_ethnic", "incident_location", "charges", "description", "detained", "cops_present", "photo_url", "officer_name", "office_age", "officer_ethnic", "officer_nature", "miranda_rights", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14, $15, $16, $17) RETURNING "id"[0m  [["victim_name", "Miss Dina Keeling"], ["victim_age", 55], ["victim_ethnic", "White"], ["incident_location", "Summer Square"], ["charges", "Health Science"], ["description", "Illo est eligendi. Saepe sequi rerum. Quisquam eos odit. Laboriosam sit laudantium. Provident magnam consequatur."], ["detained", false], ["cops_present", 1], ["photo_url", "https://placehold.it/50x50.png"], ["officer_name", "Paulita Wiza"], ["office_age", 25], ["officer_ethnic", "American Indian or Alaska Native"], ["officer_nature", "indent"], ["miranda_rights", true], ["user_id", 6], ["created_at", "2020-03-10 19:44:39.926901"], ["updated_at", "2020-03-10 19:44:39.926901"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "Ferdinand Zieme"], ["LIMIT", 1]]
+  [1m[36mUser Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "floretta.romaguera@mclaughlin.io"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("digiCode", "name", "age", "username", "password_digest", "email", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["digiCode", 1378], ["name", "Juliet Conroy"], ["age", 55], ["username", "Ferdinand Zieme"], ["password_digest", "$2a$12$SOE.1Ip6ljr77GdxPZN5XuemAg5g.uSnOBeflVHhHeLallrjnZ2QK"], ["email", "floretta.romaguera@mclaughlin.io"], ["created_at", "2020-03-10 19:44:40.144849"], ["updated_at", "2020-03-10 19:44:40.144849"]]
+  [1m[35m (1.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCase Create (0.3ms)[0m  [1m[32mINSERT INTO "cases" ("victim_name", "victim_age", "victim_ethnic", "incident_location", "charges", "description", "detained", "cops_present", "photo_url", "officer_name", "office_age", "officer_ethnic", "officer_nature", "miranda_rights", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14, $15, $16, $17) RETURNING "id"[0m  [["victim_name", "Shirlee Ondricka PhD"], ["victim_age", 47], ["victim_ethnic", "Black or African American"], ["incident_location", "Willow Acres"], ["charges", "Design"], ["description", "Impedit sequi ad. Aut ipsa illum. Occaecati cupiditate doloremque. Quos voluptatem est. Quam amet alias."], ["detained", true], ["cops_present", 3], ["photo_url", "https://placehold.it/50x50.png"], ["officer_name", "Burton Lowe"], ["office_age", 35], ["officer_ethnic", "Black or African American"], ["officer_nature", "swallow"], ["miranda_rights", false], ["user_id", 7], ["created_at", "2020-03-10 19:44:40.163491"], ["updated_at", "2020-03-10 19:44:40.163491"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "Julieann Collins"], ["LIMIT", 1]]
+  [1m[36mUser Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "erminia_wintheiser@wolfheaney.biz"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("digiCode", "name", "age", "username", "password_digest", "email", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["digiCode", 2839], ["name", "Loyce Rolfson"], ["age", 36], ["username", "Julieann Collins"], ["password_digest", "$2a$12$cwtcNl9QPXGNebLtOJImHe/Q0bmU5NnjzB4Vghk2FcMSfP.Hdghbi"], ["email", "erminia_wintheiser@wolfheaney.biz"], ["created_at", "2020-03-10 19:44:40.394649"], ["updated_at", "2020-03-10 19:44:40.394649"]]
+  [1m[35m (1.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCase Create (0.4ms)[0m  [1m[32mINSERT INTO "cases" ("victim_name", "victim_age", "victim_ethnic", "incident_location", "charges", "description", "detained", "cops_present", "photo_url", "officer_name", "office_age", "officer_ethnic", "officer_nature", "miranda_rights", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14, $15, $16, $17) RETURNING "id"[0m  [["victim_name", "Teodoro Nienow"], ["victim_age", 54], ["victim_ethnic", "Asian"], ["incident_location", "Park Estates"], ["charges", "Law"], ["description", "Sed perspiciatis quaerat. Atque animi hic. Tempora fugiat occaecati. Repellendus ab rerum. Et molestiae veniam."], ["detained", false], ["cops_present", 3], ["photo_url", "https://placehold.it/50x50.png"], ["officer_name", "Angel Friesen"], ["office_age", 39], ["officer_ethnic", "Asian"], ["officer_nature", "betray"], ["miranda_rights", false], ["user_id", 8], ["created_at", "2020-03-10 19:44:40.411450"], ["updated_at", "2020-03-10 19:44:40.411450"]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "Lane Simonis"], ["LIMIT", 1]]
+  [1m[36mUser Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "herlinda@harris.co"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("digiCode", "name", "age", "username", "password_digest", "email", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["digiCode", 1522], ["name", "Jay Murazik"], ["age", 22], ["username", "Lane Simonis"], ["password_digest", "$2a$12$cpDIipVuOpOFwTfOh.vfL.8QHYFdiDqn9VyNLtYfx0OIYUr/WnIKy"], ["email", "herlinda@harris.co"], ["created_at", "2020-03-10 19:44:40.629309"], ["updated_at", "2020-03-10 19:44:40.629309"]]
+  [1m[35m (1.8ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCase Create (0.3ms)[0m  [1m[32mINSERT INTO "cases" ("victim_name", "victim_age", "victim_ethnic", "incident_location", "charges", "description", "detained", "cops_present", "photo_url", "officer_name", "office_age", "officer_ethnic", "officer_nature", "miranda_rights", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14, $15, $16, $17) RETURNING "id"[0m  [["victim_name", "Jesusita Von I"], ["victim_age", 16], ["victim_ethnic", "Asian"], ["incident_location", "University Oaks"], ["charges", "Information Systems"], ["description", "Possimus totam aperiam. Officia qui recusandae. Sunt dolor dolores. Ipsa eum laudantium. Nemo sed hic."], ["detained", false], ["cops_present", 4], ["photo_url", "https://placehold.it/50x50.png"], ["officer_name", "Kirk Oberbrunner"], ["office_age", 56], ["officer_ethnic", "American Indian or Alaska Native"], ["officer_nature", "hoax"], ["miranda_rights", true], ["user_id", 9], ["created_at", "2020-03-10 19:44:40.645947"], ["updated_at", "2020-03-10 19:44:40.645947"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "Adolph Gerlach MD"], ["LIMIT", 1]]
+  [1m[36mUser Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "twyla@oconner.io"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("digiCode", "name", "age", "username", "password_digest", "email", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["digiCode", 1968], ["name", "Miss Florencio Gislason"], ["age", 42], ["username", "Adolph Gerlach MD"], ["password_digest", "$2a$12$KsAArWcDeWAH5.xBRVypvOM2ar0fOx0zHovBCs9PFMQNruedD4hYa"], ["email", "twyla@oconner.io"], ["created_at", "2020-03-10 19:44:40.864132"], ["updated_at", "2020-03-10 19:44:40.864132"]]
+  [1m[35m (1.8ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCase Create (0.3ms)[0m  [1m[32mINSERT INTO "cases" ("victim_name", "victim_age", "victim_ethnic", "incident_location", "charges", "description", "detained", "cops_present", "photo_url", "officer_name", "office_age", "officer_ethnic", "officer_nature", "miranda_rights", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14, $15, $16, $17) RETURNING "id"[0m  [["victim_name", "Hoa Ruecker"], ["victim_age", 19], ["victim_ethnic", "White"], ["incident_location", "Willow Acres"], ["charges", "Nursing"], ["description", "Molestiae cumque quis. Vero repudiandae voluptatem. Sint quia libero. Unde voluptatem quae. Voluptate molestiae fugiat."], ["detained", false], ["cops_present", 2], ["photo_url", "https://placehold.it/50x50.png"], ["officer_name", "Randee VonRueden"], ["office_age", 38], ["officer_ethnic", "Asian"], ["officer_nature", "endure"], ["miranda_rights", true], ["user_id", 10], ["created_at", "2020-03-10 19:44:40.882260"], ["updated_at", "2020-03-10 19:44:40.882260"]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mComment Create (0.9ms)[0m  [1m[32mINSERT INTO "comments" ("title", "body", "user_id", "created_at", "updated_at", "case_id") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["title", "Esse velit cum quis."], ["body", "Velut caelum torqueo. Decerno quasi ulciscor. Ex abundans velut."], ["user_id", 3], ["created_at", "2020-03-10 19:44:40.898656"], ["updated_at", "2020-03-10 19:44:40.898656"], ["case_id", 6]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 10], ["LIMIT", 1]]
+  [1m[36mComment Create (0.3ms)[0m  [1m[32mINSERT INTO "comments" ("title", "body", "user_id", "created_at", "updated_at", "case_id") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["title", "Praesentium suscipit qui ullam."], ["body", "Minima calamitas quia. Dapifer coniuratio aedificium. Peccatus tracto similique."], ["user_id", 10], ["created_at", "2020-03-10 19:44:40.904651"], ["updated_at", "2020-03-10 19:44:40.904651"], ["case_id", 5]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 10], ["LIMIT", 1]]
+  [1m[36mComment Create (0.3ms)[0m  [1m[32mINSERT INTO "comments" ("title", "body", "user_id", "created_at", "updated_at", "case_id") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["title", "Fugiat ab saepe sint."], ["body", "Certus dolores degero. Quod volo volup. Baiulus voluptatem somnus."], ["user_id", 10], ["created_at", "2020-03-10 19:44:40.909294"], ["updated_at", "2020-03-10 19:44:40.909294"], ["case_id", 7]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 9], ["LIMIT", 1]]
+  [1m[36mComment Create (0.3ms)[0m  [1m[32mINSERT INTO "comments" ("title", "body", "user_id", "created_at", "updated_at", "case_id") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["title", "Assumenda consequatur dolorem id."], ["body", "Theatrum tribuo at. Adaugeo caelestis auctor. Vespillo absorbeo bellicus."], ["user_id", 9], ["created_at", "2020-03-10 19:44:40.913784"], ["updated_at", "2020-03-10 19:44:40.913784"], ["case_id", 2]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+  [1m[36mComment Create (0.3ms)[0m  [1m[32mINSERT INTO "comments" ("title", "body", "user_id", "created_at", "updated_at", "case_id") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["title", "Quos et non voluptas."], ["body", "Absorbeo commodi tabgo. Curto subnecto territo. Triduana recusandae thermae."], ["user_id", 8], ["created_at", "2020-03-10 19:44:40.918475"], ["updated_at", "2020-03-10 19:44:40.918475"], ["case_id", 6]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mComment Create (0.3ms)[0m  [1m[32mINSERT INTO "comments" ("title", "body", "user_id", "created_at", "updated_at", "case_id") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["title", "Voluptatem excepturi ex illo."], ["body", "Speculum bellicus adstringo. Talis patior non. Conculco unde coaegresco."], ["user_id", 2], ["created_at", "2020-03-10 19:44:40.922965"], ["updated_at", "2020-03-10 19:44:40.922965"], ["case_id", 4]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 9], ["LIMIT", 1]]
+  [1m[36mComment Create (0.2ms)[0m  [1m[32mINSERT INTO "comments" ("title", "body", "user_id", "created_at", "updated_at", "case_id") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["title", "Ut fuga rerum tempora."], ["body", "Aut calamitas amita. Vulnus conatus adeo. Dignissimos crebro umbra."], ["user_id", 9], ["created_at", "2020-03-10 19:44:40.927030"], ["updated_at", "2020-03-10 19:44:40.927030"], ["case_id", 9]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 10], ["LIMIT", 1]]
+  [1m[36mComment Create (0.2ms)[0m  [1m[32mINSERT INTO "comments" ("title", "body", "user_id", "created_at", "updated_at", "case_id") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["title", "Accusamus voluptas illo aspernatur."], ["body", "Beneficium cimentarius facere. Viscus aliquid caritas. Varius ad veritatis."], ["user_id", 10], ["created_at", "2020-03-10 19:44:40.931505"], ["updated_at", "2020-03-10 19:44:40.931505"], ["case_id", 4]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  [1m[36mComment Create (0.2ms)[0m  [1m[32mINSERT INTO "comments" ("title", "body", "user_id", "created_at", "updated_at", "case_id") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["title", "Repudiandae ut dolore quidem."], ["body", "Tamen voluptatem creo. Synagoga antiquus suus. Tricesimus cornu tabula."], ["user_id", 4], ["created_at", "2020-03-10 19:44:40.936270"], ["updated_at", "2020-03-10 19:44:40.936270"], ["case_id", 9]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mComment Create (0.2ms)[0m  [1m[32mINSERT INTO "comments" ("title", "body", "user_id", "created_at", "updated_at", "case_id") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["title", "Non error velit provident."], ["body", "Depopulo cibus audacia. Cui desidero dapifer. Calcar creo cotidie."], ["user_id", 3], ["created_at", "2020-03-10 19:44:40.940684"], ["updated_at", "2020-03-10 19:44:40.940684"], ["case_id", 8]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  [1m[36mComment Create (0.2ms)[0m  [1m[32mINSERT INTO "comments" ("title", "body", "user_id", "created_at", "updated_at", "case_id") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["title", "Possimus hic sit aut."], ["body", "Accipio asporto super. Advoco vero verbera. Chirographum subnecto cunctatio."], ["user_id", 7], ["created_at", "2020-03-10 19:44:40.945020"], ["updated_at", "2020-03-10 19:44:40.945020"], ["case_id", 4]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mComment Create (0.4ms)[0m  [1m[32mINSERT INTO "comments" ("title", "body", "user_id", "created_at", "updated_at", "case_id") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["title", "Ex commodi possimus facilis."], ["body", "Itaque vilitas tumultus. Sum ater aiunt. Strues delinquo solutio."], ["user_id", 3], ["created_at", "2020-03-10 19:44:40.949189"], ["updated_at", "2020-03-10 19:44:40.949189"], ["case_id", 5]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mComment Create (0.3ms)[0m  [1m[32mINSERT INTO "comments" ("title", "body", "user_id", "created_at", "updated_at", "case_id") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["title", "In nihil saepe unde."], ["body", "Vita curvus capitulus. Suggero suppellex circumvenio. Calcar thesaurus calamitas."], ["user_id", 2], ["created_at", "2020-03-10 19:44:40.954520"], ["updated_at", "2020-03-10 19:44:40.954520"], ["case_id", 6]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mComment Create (0.2ms)[0m  [1m[32mINSERT INTO "comments" ("title", "body", "user_id", "created_at", "updated_at", "case_id") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["title", "Libero et dolores quis."], ["body", "Vestrum utrimque velut. Commodo odit vere. Voluptas sopor perferendis."], ["user_id", 1], ["created_at", "2020-03-10 19:44:40.958740"], ["updated_at", "2020-03-10 19:44:40.958740"], ["case_id", 6]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  [1m[36mComment Create (0.4ms)[0m  [1m[32mINSERT INTO "comments" ("title", "body", "user_id", "created_at", "updated_at", "case_id") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["title", "Voluptas eos qui odio."], ["body", "Aperte tyrannus catena. Vitium voluptates tibi. Conicio cras unde."], ["user_id", 7], ["created_at", "2020-03-10 19:44:40.963599"], ["updated_at", "2020-03-10 19:44:40.963599"], ["case_id", 8]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  [1m[36mComment Create (0.2ms)[0m  [1m[32mINSERT INTO "comments" ("title", "body", "user_id", "created_at", "updated_at", "case_id") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["title", "Ipsum praesentium ducimus unde."], ["body", "Ater canto libero. In cito triduana. Varietas uterque victoria."], ["user_id", 7], ["created_at", "2020-03-10 19:44:40.969293"], ["updated_at", "2020-03-10 19:44:40.969293"], ["case_id", 10]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mComment Create (0.2ms)[0m  [1m[32mINSERT INTO "comments" ("title", "body", "user_id", "created_at", "updated_at", "case_id") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["title", "Facere quia quaerat est."], ["body", "Decerno socius angustus. Cupiditas vinculum succedo. Vinitor apostolus nihil."], ["user_id", 3], ["created_at", "2020-03-10 19:44:40.973706"], ["updated_at", "2020-03-10 19:44:40.973706"], ["case_id", 3]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 9], ["LIMIT", 1]]
+  [1m[36mComment Create (0.2ms)[0m  [1m[32mINSERT INTO "comments" ("title", "body", "user_id", "created_at", "updated_at", "case_id") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["title", "Quam perferendis placeat qui."], ["body", "Reprehenderit compello decet. Vergo admoveo aedificium. Anser suscipio adipiscor."], ["user_id", 9], ["created_at", "2020-03-10 19:44:40.977820"], ["updated_at", "2020-03-10 19:44:40.977820"], ["case_id", 8]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mComment Create (0.3ms)[0m  [1m[32mINSERT INTO "comments" ("title", "body", "user_id", "created_at", "updated_at", "case_id") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["title", "Ut similique et deserunt."], ["body", "Tenax anser vicissitudo. Balbus curto artificiose. Cruentus explicabo vito."], ["user_id", 2], ["created_at", "2020-03-10 19:44:40.982736"], ["updated_at", "2020-03-10 19:44:40.982736"], ["case_id", 4]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  [1m[36mComment Create (0.3ms)[0m  [1m[32mINSERT INTO "comments" ("title", "body", "user_id", "created_at", "updated_at", "case_id") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["title", "Et nam aut provident."], ["body", "Sui sed aut. Atrocitas denuncio et. Auris voveo amet."], ["user_id", 7], ["created_at", "2020-03-10 19:44:40.987896"], ["updated_at", "2020-03-10 19:44:40.987896"], ["case_id", 7]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mComment Create (0.2ms)[0m  [1m[32mINSERT INTO "comments" ("title", "body", "user_id", "created_at", "updated_at", "case_id") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["title", "Error sunt libero quis."], ["body", "Verto tergum venio. Acceptus decretum acervus. Utique admitto sulum."], ["user_id", 1], ["created_at", "2020-03-10 19:44:40.992463"], ["updated_at", "2020-03-10 19:44:40.992463"], ["case_id", 7]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  [1m[36mComment Create (0.3ms)[0m  [1m[32mINSERT INTO "comments" ("title", "body", "user_id", "created_at", "updated_at", "case_id") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["title", "Ut blanditiis odio dolores."], ["body", "Volup totam et. Occaecati dicta deficio. Optio centum balbus."], ["user_id", 5], ["created_at", "2020-03-10 19:44:40.997320"], ["updated_at", "2020-03-10 19:44:40.997320"], ["case_id", 4]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  [1m[36mComment Create (0.3ms)[0m  [1m[32mINSERT INTO "comments" ("title", "body", "user_id", "created_at", "updated_at", "case_id") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["title", "Asperiores error eum a."], ["body", "Tyrannus talus absens. Quod colloco hic. Sed et thymum."], ["user_id", 7], ["created_at", "2020-03-10 19:44:41.002093"], ["updated_at", "2020-03-10 19:44:41.002093"], ["case_id", 7]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 9], ["LIMIT", 1]]
+  [1m[36mComment Create (0.3ms)[0m  [1m[32mINSERT INTO "comments" ("title", "body", "user_id", "created_at", "updated_at", "case_id") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["title", "Facilis voluptatem ipsam veniam."], ["body", "Capillus quam damnatio. Pel video pauper. Cubo fugit maiores."], ["user_id", 9], ["created_at", "2020-03-10 19:44:41.007147"], ["updated_at", "2020-03-10 19:44:41.007147"], ["case_id", 1]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mComment Create (0.3ms)[0m  [1m[32mINSERT INTO "comments" ("title", "body", "user_id", "created_at", "updated_at", "case_id") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["title", "Quidem hic aliquam assumenda."], ["body", "Armo capto bellum. Decens cuius aut. Tamen supellex excepturi."], ["user_id", 2], ["created_at", "2020-03-10 19:44:41.012097"], ["updated_at", "2020-03-10 19:44:41.012097"], ["case_id", 5]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mComment Create (0.3ms)[0m  [1m[32mINSERT INTO "comments" ("title", "body", "user_id", "created_at", "updated_at", "case_id") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["title", "Deleniti et eum porro."], ["body", "Benevolentia comedo unde. Omnis quaerat tibi. Contabesco sapiente ullus."], ["user_id", 1], ["created_at", "2020-03-10 19:44:41.017409"], ["updated_at", "2020-03-10 19:44:41.017409"], ["case_id", 7]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 10], ["LIMIT", 1]]
+  [1m[36mComment Create (0.2ms)[0m  [1m[32mINSERT INTO "comments" ("title", "body", "user_id", "created_at", "updated_at", "case_id") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["title", "Molestiae nam voluptatum eum."], ["body", "Villa amplitudo dolor. Averto in suspendo. Fugiat armo est."], ["user_id", 10], ["created_at", "2020-03-10 19:44:41.035483"], ["updated_at", "2020-03-10 19:44:41.035483"], ["case_id", 6]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  [1m[36mComment Create (0.3ms)[0m  [1m[32mINSERT INTO "comments" ("title", "body", "user_id", "created_at", "updated_at", "case_id") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["title", "Aspernatur qui et voluptatem."], ["body", "Volva autem ciminatio. Adduco valeo beneficium. Tricesimus vester sed."], ["user_id", 7], ["created_at", "2020-03-10 19:44:41.039888"], ["updated_at", "2020-03-10 19:44:41.039888"], ["case_id", 2]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  [1m[36mComment Create (0.3ms)[0m  [1m[32mINSERT INTO "comments" ("title", "body", "user_id", "created_at", "updated_at", "case_id") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["title", "Et fugit ab non."], ["body", "Vociferor tantillus vilis. Calco curriculum cognomen. Vergo odit conculco."], ["user_id", 6], ["created_at", "2020-03-10 19:44:41.045378"], ["updated_at", "2020-03-10 19:44:41.045378"], ["case_id", 9]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 10], ["LIMIT", 1]]
+  [1m[36mComment Create (0.2ms)[0m  [1m[32mINSERT INTO "comments" ("title", "body", "user_id", "created_at", "updated_at", "case_id") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["title", "Est et ea numquam."], ["body", "Tabella assentator defluo. Sortitus venustas comminor. Subnecto theca cresco."], ["user_id", 10], ["created_at", "2020-03-10 19:44:41.050290"], ["updated_at", "2020-03-10 19:44:41.050290"], ["case_id", 7]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+Started POST "/users" for ::1 at 2020-03-10 15:45:05 -0400
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by UsersController#create as */*
+  Parameters: {"digiCode"=>100, "name"=>"Tosha Franecki", "age"=>60, "username"=>"username", "password"=>"[FILTERED]", "email"=>"email@email.com", "user"=>{"digiCode"=>100, "name"=>"Tosha Franecki", "age"=>60, "username"=>"username", "email"=>"email@email.com"}}
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:21:in `create'
+  [1m[36mUser Exists? (1.6ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "username"], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:21:in `create'
+  [1m[36mUser Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "email@email.com"], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:21:in `create'
+  [1m[35m (1.0ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/controllers/users_controller.rb:21:in `create'
+Completed 422 Unprocessable Entity in 411ms (Views: 0.3ms | ActiveRecord: 7.7ms | Allocations: 191157)
+
+
+Started POST "/users" for ::1 at 2020-03-10 15:46:30 -0400
+Processing by UsersController#create as */*
+  Parameters: {"user"=>{"digiCode"=>100, "name"=>"Tosha Franecki", "age"=>60, "username"=>"username", "password"=>"[FILTERED]", "email"=>"email@email.com"}}
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:21:in `create'
+  [1m[36mUser Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "username"], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:21:in `create'
+  [1m[36mUser Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "email@email.com"], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:21:in `create'
+  [1m[36mUser Create (0.7ms)[0m  [1m[32mINSERT INTO "users" ("digiCode", "name", "age", "username", "password_digest", "email", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["digiCode", 100], ["name", "Tosha Franecki"], ["age", 60], ["username", "username"], ["password_digest", "$2a$12$DO.kdZdI2sh.g6KNlXopM.K4XmZDcZ4DTVq4o9Bf5zSdBf6nNnk0a"], ["email", "email@email.com"], ["created_at", "2020-03-10 19:46:30.303430"], ["updated_at", "2020-03-10 19:46:30.303430"]]
+  ↳ app/controllers/users_controller.rb:21:in `create'
+  [1m[35m (2.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:21:in `create'
+Completed 201 Created in 241ms (Views: 0.8ms | ActiveRecord: 3.4ms | Allocations: 4802)
+
+
+Started POST "/auth/login" for ::1 at 2020-03-10 15:47:37 -0400
+Error occurred while parsing request parameters.
+Contents:
+
+{
+	"username": "username",
+	"password": "password",
+}
+  
+ActionDispatch::Http::Parameters::ParseError (767: unexpected token at '{
+	"username": "username",
+	"password": "password",
+}'):
+  
+actionpack (6.0.2.1) lib/action_dispatch/http/parameters.rb:115:in `rescue in parse_formatted_parameters'
+actionpack (6.0.2.1) lib/action_dispatch/http/parameters.rb:111:in `parse_formatted_parameters'
+actionpack (6.0.2.1) lib/action_dispatch/http/request.rb:381:in `block in POST'
+rack (2.2.2) lib/rack/request.rb:69:in `fetch'
+rack (2.2.2) lib/rack/request.rb:69:in `fetch_header'
+actionpack (6.0.2.1) lib/action_dispatch/http/request.rb:380:in `POST'
+actionpack (6.0.2.1) lib/action_dispatch/http/parameters.rb:55:in `parameters'
+actionpack (6.0.2.1) lib/action_controller/metal/params_wrapper.rb:279:in `_wrapper_enabled?'
+actionpack (6.0.2.1) lib/action_controller/metal/params_wrapper.rb:244:in `process_action'
+activerecord (6.0.2.1) lib/active_record/railties/controller_runtime.rb:27:in `process_action'
+actionpack (6.0.2.1) lib/abstract_controller/base.rb:136:in `process'
+actionpack (6.0.2.1) lib/action_controller/metal.rb:191:in `dispatch'
+actionpack (6.0.2.1) lib/action_controller/metal.rb:252:in `dispatch'
+actionpack (6.0.2.1) lib/action_dispatch/routing/route_set.rb:51:in `dispatch'
+actionpack (6.0.2.1) lib/action_dispatch/routing/route_set.rb:33:in `serve'
+actionpack (6.0.2.1) lib/action_dispatch/journey/router.rb:49:in `block in serve'
+actionpack (6.0.2.1) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.0.2.1) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.0.2.1) lib/action_dispatch/routing/route_set.rb:837:in `call'
+rack (2.2.2) lib/rack/etag.rb:27:in `call'
+rack (2.2.2) lib/rack/conditional_get.rb:40:in `call'
+rack (2.2.2) lib/rack/head.rb:12:in `call'
+activerecord (6.0.2.1) lib/active_record/migration.rb:567:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.0.2.1) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.2.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.2.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.2.1) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.2) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.2) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+rack-cors (1.1.1) lib/rack/cors.rb:100:in `call'
+railties (6.0.2.1) lib/rails/engine.rb:526:in `call'
+puma (4.3.3) lib/puma/configuration.rb:228:in `call'
+puma (4.3.3) lib/puma/server.rb:682:in `handle_request'
+puma (4.3.3) lib/puma/server.rb:472:in `process_client'
+puma (4.3.3) lib/puma/server.rb:328:in `block in run'
+puma (4.3.3) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Error occurred while parsing request parameters.
+Contents:
+
+{
+	"username": "username",
+	"password": "password",
+}
+Started POST "/auth/login" for ::1 at 2020-03-10 15:47:46 -0400
+Processing by AuthenticationController#login as */*
+  Parameters: {"username"=>"username", "password"=>"[FILTERED]", "authentication"=>{"username"=>"username", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "username"], ["LIMIT", 1]]
+  ↳ app/controllers/authentication_controller.rb:7:in `login'
+Completed 200 OK in 234ms (Views: 0.4ms | ActiveRecord: 0.4ms | Allocations: 1231)
+
+
+Started GET "/users" for ::1 at 2020-03-10 15:55:24 -0400
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:8:in `index'
+Completed 200 OK in 6ms (Views: 4.6ms | ActiveRecord: 0.6ms | Allocations: 2693)
+
+
