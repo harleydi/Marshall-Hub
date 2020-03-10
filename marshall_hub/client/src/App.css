@@ -37,8 +37,47 @@
 .divider {
   border-bottom: 2px solid black;
   height: 10px;
-  width: 20px;
+  width: 80%;
+  margin-left: 10%;
 }
+
+/*  */
+/* HOME PAGE */
+/*  */
+
+.home_page {
+  text-align: center;
+}
+
+.report_header {
+  /* text-align: center; */
+}
+
+.boxes {
+  display: flex;
+  /* align-items: center; */
+  /* justify-content: center; */
+  /* flex-flow: column wrap; */
+  /* align-content: stretch; */
+}
+
+.box {
+  border: 2px solid black;
+  margin: 10px;
+  height: 30vh;
+  width: 50vw;
+  /* text-align: center; */
+}
+
+/*  */
+/* FOOTER */
+/*  */
+
+.footer {
+  display: inline;
+}
+
+
 
 @keyframes App-logo-spin {
   from {

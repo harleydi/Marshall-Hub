@@ -6,7 +6,11 @@ class Footer extends Component {
     }
     render(){
         return(
-            <p><i class="far fa-copyright"></i>The Marshall Project</p>
+            <div className='footer'>
+                <i className="far fa-copyright"></i>
+                <p>The Marshall Project</p>
+            </div>
+            
         )
     }
 }
