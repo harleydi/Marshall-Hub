@@ -23,7 +23,7 @@
 }
 
 .hub {
-  font-size: xx-large;
+  font-size: larger;
   text-decoration: none;
   color: black;
 }
@@ -41,6 +41,27 @@
   margin-left: 10%;
 }
 
+
+/*  */
+/* SIGN UP */
+/*  */
+
+.signupLink {
+  display: flex;
+  text-decoration: none;
+  font-size: larger;
+  color: red;
+}
+
+.signup-form {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  margin-top: 100px;
+}
+
+
+
 /*  */
 /* HOME PAGE */
 /*  */
@@ -55,18 +76,33 @@
 
 .boxes {
   display: flex;
-  /* align-items: center; */
-  /* justify-content: center; */
-  /* flex-flow: column wrap; */
-  /* align-content: stretch; */
+  justify-content: center;
 }
 
 .box {
   border: 2px solid black;
   margin: 10px;
   height: 30vh;
-  width: 50vw;
-  /* text-align: center; */
+  width: 100%;
+  text-align: center;
+  border-radius: 20px;
+  background-color: gray;
+  opacity: .920;
+}
+
+.box:hover {
+
+}
+
+.box-text {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.box-links {
+  text-decoration: none;
+  color: white;
 }
 
 /*  */
