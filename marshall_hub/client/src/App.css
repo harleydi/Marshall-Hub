@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  background-color: #586F7C;
+  
 }
 
 /*  */
@@ -49,8 +51,9 @@
 .signupLink {
   display: flex;
   text-decoration: none;
-  font-size: larger;
+  font-size: small;
   color: red;
+  margin: 10px;
 }
 
 .signup-form {
@@ -58,6 +61,51 @@
   flex-flow: column;
   align-items: center;
   margin-top: 100px;
+}
+
+.signupSubmit {
+  width: 21%;
+  height: 30px;
+  border-radius: 10px;
+}
+
+
+
+/*  */
+/* LOGIN */
+/*  */
+
+
+.loginLink {
+  display: flex;
+  text-decoration: none;
+  font-size: small;
+  color: red;
+  margin: 10px;
+}
+
+.loginForm {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.loginSubmit {
+  width: 21%;
+  height: 30px;
+  border-radius: 10px;
+}
+
+.labelField {
+  text-align: center;
+}
+
+.inputFeild {
+  width: 100%;
+  height: 30px;
+  text-align: center;
+  border-radius: 10px;
 }
 
 

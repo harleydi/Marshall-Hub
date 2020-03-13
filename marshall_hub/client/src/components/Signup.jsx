@@ -5,11 +5,32 @@ class Signup extends Component {
     constructor(props){
         super(props)
         this.state = {
-            users: {
                 username: "",
-                password: ""
-            }
+                password: "",
+                email: ""
         }
+        // this.handleSubmit = this.handleSubmit.bind(this);
+        // this.handleInputChange = this.handleInputChange.bind(this)
+    }
+
+    componentDidMount() {
+        this.props.getUsers()
+    }
+    
+
+
+    handleSubmit(e) {
+        e.preventDefault()
+        console.log('Form Submitted')
+    }
+
+    handleChange(e) {
+        console.log(e.target.value)
+        const { name } = e.target.value;
+        e.preventDefault()
+        this.setState({
+            [name]: e.target.value
+        })
     }
 
     render() {
@@ -17,46 +38,43 @@ class Signup extends Component {
         return(
             <div>
                 <Navbar />
-                <form className='signup-form'>
-                <label>
-                    Name:
-                    <input
-                    type='text'
-                    name='victim_name'
-                    // value=''
-                    onChange={this.props.handleInputChange}
-                    />
-                </label>
-                <br />
-                <label>Age:
-                    <input 
-                        type='text'
-                        name='age'
-                    />
-                </label>
-                <br />
-                <label>Username:
+                <form className='signup-form' onSubmit={this.handleSubmit}>
+                <label className='labelField'>Username:
                     <input 
                         type='text'
                         name='username'
+                        placeholder='Username'
+                        value={this.state.username}
+                        onChange={this.props.handleInputChange}
+                        className='inputFeild'
+                        required
                     />
                 </label>
                 <br />
-                <label>Email Address:
+                <label className='labelField'>Email Address:
                     <input 
-                        type='text'
+                        type='email'
                         name='email'
+                        placeholder='Email'
+                        value={this.state.email}
+                        onChange={this.handleChange}
+                        className='inputFeild'
                     />
                 </label>
                 <br />
-                <label>Password:
+                <label className='labelField'>Password:
                     <input 
-                        type='text'
+                        type='password'
                         name='password'
+                        placeholder='password'
+                        value={this.state.password}
+                        onChange={this.handleInputChange}
+                        className='inputFeild'
                     />
                 </label>
                 <input 
                     type='submit'  
+                    className='signupSubmit'
                 />
             </form>
             </div>

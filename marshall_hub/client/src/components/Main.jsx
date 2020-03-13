@@ -6,7 +6,7 @@ import axios from 'axios'
 
 class Main extends Component {
     constructor(props) {
-        super(props)
+        super()
 
         this.state = {
             cases: []
@@ -24,7 +24,7 @@ class Main extends Component {
     }
     
     render() {
-        // console.log(users)
+        console.log(this.state)
         return (
             <div>
                 <Header />

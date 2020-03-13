@@ -1,41 +1,98 @@
 import React, { Component } from 'react';
 import './App.css';
-import Header from './components/Header';
-import Footer from './components/Footer';
 import Profile from './components/Profile';
 import Main from './components/Main';
 import { Switch, Route } from 'react-router-dom';
-import Home from './components/Home';
 import Signup from './components/Signup';
+import axios from 'axios'
+import Login from './components/Login';
+
+
+import {
+  createUser,
+  readAllUsers,
+  updateUser,
+  destroyUser,
+  loginUser,
+  registerUser,
+  verifyUser
+} from './components/Services/api-helper'
 
 class App extends Component{
-  constructor() {
-    super()
+  constructor(props) {
+    super(props)
     this.state = {
-      users: {
+      users: [],
+      cases: [],
+      comments: [],
+      userForm: {
         username: "",
         password: ""
       },
-      cases: [],
-      comments: []
+      currentUser: null
     }
 
-    // componentDidMount() {
-
-    // }
-
+    
     
   }
+
+  getUsers = async () => {
+    const users = await readAllUsers();
+    this.setState({
+      users
+    })
+  }
+
+  
+
+  async componentDidMount () {
+    // try {
+    //   const response = await axios(`http://localhost:3000/users`);
+    //   this.setState({ users: response.data.users })
+    //   console.log(response)
+    // } catch (error) {
+    //   console.log(error)
+    // }
+    // console.log(response.data) 
+    this.getUsers();
+    const currentUser = await verifyUser();
+    if (currentUser) {
+      this.setState({ currentUser })
+    }
+  }
+
   handleInputChange = e => {
     e.preventDefault()
     const { value, name } = e.target;
-    console.log(value)
+    this.setState(prevState => ({
+      userForm: {
+        ...prevState.userForm,
+        [name]: value
+      }
+    }));
+    // console.log(value)
   }
+
+  handleRegister = async (e) => {
+    e.preventDefault();
+    const currentUser = await registerUser(this.state.userForm);
+    this.setState({ currentUser })
+  }
+
+
   render(){
+    // console.log(response)
     return(
-      <React.Fragment>
+      <React.Fragment classname='App'>
         <Switch>
-          <Route exact path='/signup' component={props => <Signup {...props} handleChange={this.handleInputChange} />}  />
+          <Route exact path='/signup' render={() => (
+            <Signup 
+              handleRegister={this.handleRegister}
+              handleChange={this.handleInputChange}
+              userForm={this.state.userForm}
+            />
+          )}  />
+          <Route exact path='/login' component={props => <Login {...props} /> } />
           <Route exact path='/' component={Main} />
           <Route exact path='/profile' component={Profile} />
         </Switch>

@@ -16,6 +16,7 @@ class Navbar extends Component {
                     <Link to="/hub" className='hub'>HUB</Link>
                     <Link to="/profile" className='profile'>PROFILE</Link>
                     <Link to='/signup' className='signupLink'>Signup</Link>
+                    <Link to='/login' className='loginLink'>Login</Link>
                 </nav>
                 <div className='divider'></div>
             </div>
