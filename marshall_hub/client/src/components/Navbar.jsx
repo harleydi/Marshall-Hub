@@ -13,7 +13,7 @@ class Navbar extends Component {
             <div>
                 <nav className='nav'>
                     <Link to="/post" className='post'>POST</Link>
-                    <Link to="/hub" className='hub'>HUB</Link>
+                    <Link to="/" className='hub'>HUB</Link>
                     <Link to="/profile" className='profile'>PROFILE</Link>
                     <Link to='/signup' className='signupLink'>Signup</Link>
                     <Link to='/login' className='loginLink'>Login</Link>

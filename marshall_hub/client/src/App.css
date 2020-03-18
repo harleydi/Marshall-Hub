@@ -124,6 +124,7 @@
 
 .boxes {
   display: flex;
+  flex-direction: column;
   justify-content: center;
 }
 
@@ -152,6 +153,51 @@
   text-decoration: none;
   color: white;
 }
+
+
+
+
+/*  */
+/* CASE PAGE */
+/*  */
+
+
+.caseDetails {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+/* .case {
+  background: black;
+  color: white;
+
+} */
+
+.roleHeader {
+  color: red;
+  display: flex;
+  /* flex-direction: row-reverse; */
+  text-align: center;
+}
+
+
+
+
+/*  */
+/* POST PAGE */
+/*  */
+
+
+.postForm {
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+
+
 
 /*  */
 /* FOOTER */

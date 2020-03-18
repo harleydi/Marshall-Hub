@@ -6,6 +6,7 @@ import { Switch, Route } from 'react-router-dom';
 import Signup from './components/Signup';
 import axios from 'axios'
 import Login from './components/Login';
+import Post from './components/Post'
 
 
 import {
@@ -17,6 +18,7 @@ import {
   registerUser,
   verifyUser
 } from './components/Services/api-helper'
+import Report from './components/Report';
 
 class App extends Component{
   constructor(props) {
@@ -43,23 +45,32 @@ class App extends Component{
     })
   }
 
+  async componentDidMount () {
+    try {
+        const response = await axios(`http://localhost:3000/cases`)
+        this.setState({ cases: response.data })
+        console.log(response)
+    } catch (error) {
+        console.log(error)
+    }
+}
   
 
-  async componentDidMount () {
-    // try {
-    //   const response = await axios(`http://localhost:3000/users`);
-    //   this.setState({ users: response.data.users })
-    //   console.log(response)
-    // } catch (error) {
-    //   console.log(error)
-    // }
-    // console.log(response.data) 
-    this.getUsers();
-    const currentUser = await verifyUser();
-    if (currentUser) {
-      this.setState({ currentUser })
-    }
-  }
+  // async componentDidMount () {
+  //   // try {
+  //   //   const response = await axios(`http://localhost:3000/users`);
+  //   //   this.setState({ users: response.data.users })
+  //   //   console.log(response)
+  //   // } catch (error) {
+  //   //   console.log(error)
+  //   // }
+  //   // console.log(response.data) 
+  //   this.getUsers();
+  //   // const currentUser = await verifyUser();
+  //   if (currentUser) {
+  //     this.setState({ currentUser })
+  //   }
+  // }
 
   handleInputChange = e => {
     e.preventDefault()
@@ -83,10 +94,11 @@ class App extends Component{
   render(){
     // console.log(response)
     return(
-      <React.Fragment classname='App'>
+      <React.Fragment>
         <Switch>
-          <Route exact path='/signup' render={() => (
+          <Route exact path='/signup' render={(props) => (
             <Signup 
+              {...props}
               handleRegister={this.handleRegister}
               handleChange={this.handleInputChange}
               userForm={this.state.userForm}
@@ -94,7 +106,9 @@ class App extends Component{
           )}  />
           <Route exact path='/login' component={props => <Login {...props} /> } />
           <Route exact path='/' component={Main} />
-          <Route exact path='/profile' component={Profile} />
+          <Route exact path='/profile' component={props => <Profile {...props} /> } />
+          <Route exact path='/post' component={props => <Post {...props} /> } />
+          <Route exact path='/cases/:caseid' component={props => <Report {...props} />} />
         </Switch>
       </React.Fragment>
     )
