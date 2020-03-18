@@ -2,23 +2,19 @@ import React, { Component } from 'react'
 import Axios from 'axios'
 import { Link } from 'react-router-dom'
 import Navbar from './Navbar'
-import { createCase } from './Services/api-helper'
+import { editCase, readCase, destroyCase } from './Services/api-helper'
 
-class Post extends Component {
-    constructor() {
-        super()
+class EditPost extends Component {
+    constructor(props) {
+        super(props)
         this.state = {
             case: []
         }
     }
 
     async componentDidMount() {
-        // try {
-        //     const response = await Axios(`http://localhost:3000/users`)
-        //     console.log(response)
-        // } catch (error) {
-        //     console.error(error)
-        // }
+        let response = await readCase(this.props.match.params.caseid)
+        this.setState({ case: response }) 
     }
 
     handleChange = (e) => {
@@ -46,8 +42,13 @@ class Post extends Component {
         let newCase = this.state.case
         newCase.user_id = currentUserId;
         newCase.photo_url = 'https://place-hold.it/300'
-        await createCase(newCase);
+        await editCase(newCase, this.props.match.params.caseid);
         this.props.history.push('/')
+    }
+
+    handleDelete = async () => {
+        await destroyCase(this.props.match.params.caseid)
+        this.props.history.push('/profile') 
     }
 
     render(){
@@ -99,7 +100,7 @@ class Post extends Component {
                     <input
                         type='checkbox'
                         name='detained'
-                        value={this.state.case.detained}
+                        checked={this.state.case.detained}
                         onChange={this.handleChange} 
                     />
 
@@ -187,12 +188,17 @@ class Post extends Component {
                     <input
                         type='checkbox'
                         name='miranda_rights'
-                        value={this.state.case.miranda_rights}
+                        checked={this.state.case.miranda_rights}
                         onChange={this.handleChange} 
                     />
 
                     <input
                         type='submit'
+                    />
+                    <input 
+                        type='button'
+                        value='Delete'
+                        onClick={this.handleDelete}
                     />
                 </form>
             </div>
@@ -200,4 +206,4 @@ class Post extends Component {
     }
 }
 
-export default Post
+export default EditPost

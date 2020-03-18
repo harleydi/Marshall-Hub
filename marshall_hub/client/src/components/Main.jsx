@@ -12,6 +12,8 @@ class Main extends Component {
             cases: []
         }
     }
+
+    
     
     async componentDidMount () {
         try {

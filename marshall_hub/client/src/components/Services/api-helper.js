@@ -9,6 +9,8 @@ const api = axios.create({
 export const loginUser = async (loginData) => {
     const response = await api.post('/auth/login', loginData)
     localStorage.setItem('authToken', response.data.token);
+    localStorage.setItem('id', response.data.user.id);
+    console.log(response.data)
     api.defaults.headers.common.authourization = `Bearer ${response.data.token}`
     return response.data.user
 }
@@ -16,6 +18,7 @@ export const loginUser = async (loginData) => {
 export const registerUser = async (registerData) => {
     const response = await api.post('/users/', { user: registerData })
     localStorage.setItem('authToken', response.data.token);
+    localStorage.setItem('id', response.data.user.id);
     api.defaults.headers.common.authourization = `Bearer ${response.data.token}`
     return response.data.user
 }
@@ -50,9 +53,39 @@ const destroyUser = async (id) => {
     return response.data
 }
 
+const readCase = async (id) => {
+    const response = await api.get(`/cases/${id}`)
+    return response.data
+}
+
+const readUser = async (id) => {
+    const response = await api.get(`/users/${id}`)
+    return response.data
+}
+
+const createCase = async (data) => {
+    const response = await api.post('/cases',  data)
+    return response.data
+}
+
+const editCase = async (data, id) => {
+    const response = await api.put(`/cases/${id}`,  data)
+    return response.data
+}
+
+const destroyCase = async (id) => {
+    const response = await api.delete(`/cases/${id}`)
+    return response.data
+}
+
 export {
     createUser,
     readAllUsers,
     updateUser,
-    destroyUser
+    destroyUser,
+    readCase,
+    readUser,
+    createCase,
+    editCase,
+    destroyCase
 }
