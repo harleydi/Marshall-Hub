@@ -12,11 +12,16 @@ class Navbar extends Component {
         return(
             <div>
                 <nav className='nav'>
-                    <Link to="/post" className='post'>POST</Link>
-                    <Link to="/" className='hub'>HUB</Link>
-                    <Link to="/profile" className='profile'>PROFILE</Link>
-                    <Link to='/signup' className='signupLink'>Signup</Link>
-                    <Link to='/login' className='loginLink'>Login</Link>
+                    <div className='mainNav'>
+                        <Link to="/post" className='post'>POST</Link>
+                        <Link to="/" className='hub'>HUB</Link>
+                        <Link to="/profile" className='profile'>PROFILE</Link>
+                    </div>
+                    <div className='signuplogin'>
+                        <Link to='/signup' className='signupLink'>Signup</Link>
+                        <Link to='/login' className='loginLink'>Login</Link>
+                    </div>
+                    
                 </nav>
                 <div className='divider'></div>
             </div>

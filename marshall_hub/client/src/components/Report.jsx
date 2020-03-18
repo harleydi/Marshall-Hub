@@ -43,6 +43,7 @@ class Report extends Component {
         <div>
             <h2 className='roleHeader'>Details</h2>
             <h2>{aCase.description}</h2>
+            <img src={aCase.photo_url} />
         </div>
         </React.Fragment>
         

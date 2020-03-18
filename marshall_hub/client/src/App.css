@@ -18,19 +18,32 @@
   /* text-decoration: none; */
 }
 
+.mainNav {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.signuplogin {
+  display: flex;
+  justify-content: space-evenly;
+}
+
 .post {
+  margin: 0 5vw;
   font-size: larger;
   text-decoration: none;
   color: black;
 }
 
 .hub {
+  margin: 0 5vw;
   font-size: larger;
   text-decoration: none;
   color: black;
 }
 
 .profile {
+  margin: 0 5vw;
   font-size: larger;
   text-decoration: none;
   color: black;
@@ -42,6 +55,8 @@
   width: 80%;
   margin-left: 10%;
 }
+
+
 
 
 /*  */
@@ -192,10 +207,36 @@
 .postForm {
   display: flex;
   flex-direction: column;
+  align-items: center;
+}
+
+.postFeild {
+  width: 40%;
+  height: 30px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.postLabel {
+  margin-top: 10px;
+  font-size: larger;
+  font-weight: 300;
+}
+
+.postHeader {
+  font-size: xx-large;
+  color: red;
+  font-weight: 300;
 }
 
 
+/*  */
+/* PROFILE */
+/*  */
 
+.profileImg {
+  margin-top: 30px;
+}
 
 
 
@@ -215,5 +256,38 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+@media only screen and (max-width: 500px){
+  *{
+    background-color: grey;
+  }
+
+  .nav {
+    flex-direction: column;
+  }
+
+  .profileImg {
+    margin-top: 30px;
+    margin-left: 39px;
+  }
+
+  .profileCases {
+    width: 90%;
+    
+  }
+
+  .username {
+    text-align: center;
+  }
+
+  .casenum {
+    text-align: center;
+  }
+
+  .box-links {
+    width: 30%;
+    align-content: center;
   }
 }

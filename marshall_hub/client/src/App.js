@@ -19,6 +19,7 @@ import {
   verifyUser
 } from './components/Services/api-helper'
 import Report from './components/Report';
+import EditPost from './components/EditPost';
 
 class App extends Component{
   constructor(props) {
@@ -109,6 +110,7 @@ class App extends Component{
           <Route exact path='/profile' component={props => <Profile {...props} /> } />
           <Route exact path='/post' component={props => <Post {...props} /> } />
           <Route exact path='/cases/:caseid' component={props => <Report {...props} />} />
+          <Route exact path='/cases/:caseid/edit' component={props => <EditPost {...props} />} />
         </Switch>
       </React.Fragment>
     )

@@ -64,7 +64,17 @@ const readUser = async (id) => {
 }
 
 const createCase = async (data) => {
-    const response = await api.post('/cases', { case: data })
+    const response = await api.post('/cases',  data)
+    return response.data
+}
+
+const editCase = async (data, id) => {
+    const response = await api.put(`/cases/${id}`,  data)
+    return response.data
+}
+
+const destroyCase = async (id) => {
+    const response = await api.delete(`/cases/${id}`)
     return response.data
 }
 
@@ -75,5 +85,7 @@ export {
     destroyUser,
     readCase,
     readUser,
-    createCase
+    createCase,
+    editCase,
+    destroyCase
 }
