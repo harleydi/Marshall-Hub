@@ -28,7 +28,7 @@ class Profile extends Component {
                 <div>
                     <Link to={`/cases/${Case.id}`} className='box-links'>
                         <div className='box box-text'>
-                            <h2>{Case.victim_name}</h2>
+                            <h2 className='casename'>{Case.victim_name}</h2>
                             
                         </div>
                     </Link>

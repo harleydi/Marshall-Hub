@@ -262,8 +262,13 @@
 
 @media only screen and (max-width: 500px){
   *{
-    background-color: grey;
+    background-color: lightgray;
+    color: black;
   }
+
+  /*  */
+  /* PROFILE */
+  /*  */
 
   .nav {
     flex-direction: column;
@@ -271,24 +276,54 @@
 
   .profileImg {
     margin-top: 30px;
-    margin-left: 39px;
+    margin-left: 55px;
+  }
+
+  .box {
+    /* background-color: white; */
+    margin-left: 30px;
   }
 
   .profileCases {
-    width: 90%;
-    
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    /* align-content: center; */
+    margin-left: 8px;
   }
 
   .username {
     text-align: center;
+    margin-left: 60px;
   }
 
   .casenum {
     text-align: center;
+    margin-left: 50px;
+  }
+
+  /* .box-text {
+    background-color: lightgreen;
+  } */
+
+  .casename {
+    background-color: red;
   }
 
   .box-links {
-    width: 30%;
+    /* width: 30%; */
     align-content: center;
+    margin-left: 10px;
   }
+
+  /*  */
+  /* HUB */
+  /*  */
+
+  .boxes {
+    width: 90%;
+    margin-left: 5px;
+  }
+
+
 }
