@@ -23850,3 +23850,111 @@ Processing by UsersController#show as HTML
 Completed 200 OK in 7ms (Views: 3.7ms | ActiveRecord: 1.9ms | Allocations: 3055)
 
 
+Started GET "/users/11" for ::1 at 2020-03-18 13:21:47 -0400
+Started GET "/cases" for ::1 at 2020-03-18 13:21:47 -0400
+Processing by CasesController#index as HTML
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"11"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 11], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:45:in `set_user'
+  [1m[36mCase Load (12.9ms)[0m  [1m[34mSELECT "cases".* FROM "cases"[0m
+  ↳ app/controllers/cases_controller.rb:8:in `index'
+Completed 200 OK in 18ms (Views: 5.2ms | ActiveRecord: 12.9ms | Allocations: 5425)
+
+
+  [1m[36mCase Load (10.2ms)[0m  [1m[34mSELECT "cases".* FROM "cases" WHERE "cases"."user_id" = $1[0m  [["user_id", 11]]
+  ↳ app/controllers/users_controller.rb:13:in `show'
+Completed 200 OK in 27ms (Views: 3.6ms | ActiveRecord: 10.4ms | Allocations: 7811)
+
+
+Started GET "/users/11" for ::1 at 2020-03-18 13:21:48 -0400
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"11"}
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 11], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:45:in `set_user'
+  [1m[36mCase Load (6.8ms)[0m  [1m[34mSELECT "cases".* FROM "cases" WHERE "cases"."user_id" = $1[0m  [["user_id", 11]]
+  ↳ app/controllers/users_controller.rb:13:in `show'
+Completed 200 OK in 11ms (Views: 2.2ms | ActiveRecord: 7.4ms | Allocations: 3055)
+
+
+Started GET "/cases" for ::1 at 2020-03-18 16:18:36 -0400
+Processing by CasesController#index as HTML
+  [1m[36mCase Load (4.3ms)[0m  [1m[34mSELECT "cases".* FROM "cases"[0m
+  ↳ app/controllers/cases_controller.rb:8:in `index'
+Completed 200 OK in 23ms (Views: 17.2ms | ActiveRecord: 4.3ms | Allocations: 4705)
+
+
+Started GET "/users/11" for ::1 at 2020-03-18 16:18:52 -0400
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"11"}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 11], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:45:in `set_user'
+  [1m[36mCase Load (0.2ms)[0m  [1m[34mSELECT "cases".* FROM "cases" WHERE "cases"."user_id" = $1[0m  [["user_id", 11]]
+  ↳ app/controllers/users_controller.rb:13:in `show'
+Completed 200 OK in 10ms (Views: 5.3ms | ActiveRecord: 1.0ms | Allocations: 3090)
+
+
+Started GET "/cases" for ::1 at 2020-03-18 16:18:53 -0400
+Processing by CasesController#index as HTML
+  [1m[36mCase Load (0.9ms)[0m  [1m[34mSELECT "cases".* FROM "cases"[0m
+  ↳ app/controllers/cases_controller.rb:8:in `index'
+Completed 200 OK in 6ms (Views: 4.8ms | ActiveRecord: 0.9ms | Allocations: 4602)
+
+
+Started GET "/cases" for ::1 at 2020-03-19 17:04:16 -0400
+  [1m[35m (2.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by CasesController#index as HTML
+  [1m[36mCase Load (4.3ms)[0m  [1m[34mSELECT "cases".* FROM "cases"[0m
+  ↳ app/controllers/cases_controller.rb:8:in `index'
+Completed 200 OK in 71ms (Views: 34.4ms | ActiveRecord: 23.1ms | Allocations: 18323)
+
+
+Started GET "/cases" for ::1 at 2020-03-19 17:04:16 -0400
+Processing by CasesController#index as HTML
+  [1m[36mCase Load (0.4ms)[0m  [1m[34mSELECT "cases".* FROM "cases"[0m
+  ↳ app/controllers/cases_controller.rb:8:in `index'
+Completed 200 OK in 32ms (Views: 31.1ms | ActiveRecord: 0.4ms | Allocations: 4605)
+
+
+Started GET "/cases" for ::1 at 2020-03-19 17:15:17 -0400
+Processing by CasesController#index as HTML
+  [1m[36mCase Load (0.7ms)[0m  [1m[34mSELECT "cases".* FROM "cases"[0m
+  ↳ app/controllers/cases_controller.rb:8:in `index'
+Completed 200 OK in 6ms (Views: 4.9ms | ActiveRecord: 0.7ms | Allocations: 4718)
+
+
+Started GET "/cases" for ::1 at 2020-03-19 17:15:17 -0400
+Processing by CasesController#index as HTML
+  [1m[36mCase Load (0.9ms)[0m  [1m[34mSELECT "cases".* FROM "cases"[0m
+  ↳ app/controllers/cases_controller.rb:8:in `index'
+Completed 200 OK in 6ms (Views: 4.9ms | ActiveRecord: 0.9ms | Allocations: 4602)
+
+
+Started GET "/cases" for ::1 at 2020-03-19 17:17:10 -0400
+Processing by CasesController#index as HTML
+  [1m[36mCase Load (0.6ms)[0m  [1m[34mSELECT "cases".* FROM "cases"[0m
+  ↳ app/controllers/cases_controller.rb:8:in `index'
+Completed 200 OK in 19ms (Views: 17.6ms | ActiveRecord: 0.6ms | Allocations: 4621)
+
+
+Started GET "/cases" for ::1 at 2020-03-19 17:17:10 -0400
+Processing by CasesController#index as HTML
+  [1m[36mCase Load (1.2ms)[0m  [1m[34mSELECT "cases".* FROM "cases"[0m
+  ↳ app/controllers/cases_controller.rb:8:in `index'
+Completed 200 OK in 36ms (Views: 34.7ms | ActiveRecord: 1.2ms | Allocations: 4602)
+
+
+Started GET "/cases" for ::1 at 2020-03-19 17:17:57 -0400
+Processing by CasesController#index as HTML
+  [1m[36mCase Load (51.7ms)[0m  [1m[34mSELECT "cases".* FROM "cases"[0m
+  ↳ app/controllers/cases_controller.rb:8:in `index'
+Completed 200 OK in 69ms (Views: 16.7ms | ActiveRecord: 51.7ms | Allocations: 4621)
+
+
+Started GET "/cases" for ::1 at 2020-03-19 17:17:57 -0400
+Processing by CasesController#index as HTML
+  [1m[36mCase Load (0.5ms)[0m  [1m[34mSELECT "cases".* FROM "cases"[0m
+  ↳ app/controllers/cases_controller.rb:8:in `index'
+Completed 200 OK in 14ms (Views: 13.3ms | ActiveRecord: 0.5ms | Allocations: 4602)
+
+

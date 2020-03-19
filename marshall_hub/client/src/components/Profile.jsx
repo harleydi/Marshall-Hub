@@ -23,7 +23,7 @@ class Profile extends Component {
         <div className='profileCases'>
             <img className='profileImg' src='https://place-hold.it/300' />
             <h1 className='username'>{this.state.user.username.toUpperCase()}</h1>
-            <p className='casenum'>cases: {this.state.user.cases.length}</p>
+            <p className='casenum'>Total Cases: {this.state.user.cases.length}</p>
             {this.state.user.cases.map(Case => (
                 <div>
                     <Link to={`/cases/${Case.id}`} className='box-links'>
