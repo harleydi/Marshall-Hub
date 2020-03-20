@@ -90,17 +90,17 @@ The Marshall Hub *is a website based off "The Marshall Project" thats tracks th
 
 ### **Timeframes**
 
-| Task | Priority | Estimated Time | Actual Time |
-| ---- | :------: | :--------------:| :----------:|
-| Add Case form | Medium | 3hrs | 0hrs |
-| Create CRUD Functionality | High | 6hrs | 0hrs |
-| Create Front-end Applications | Medium | 5hrs | 0hrs |
-| Auth | High | 9hrs | 0hrs |
-| PMVP | Medium | 10hrs | 0hrs |
-| Psuedocoding | Medium | 6hrs | 0hrs |
-| Seed data | Medium | 3hrs | 0hrs |
-| CSS | Medium | 8hrs | 0hrs|
-| Total | High | 50hrs | 0hrs |
+| Task | Priority | Estimated Time | Actual Time | Total Time |
+| ---- | :------: | :--------------:| :----------:| :---------: |
+| Add Case form | Medium | 3hrs | 5hrs | 5hrs |
+| Create CRUD Functionality | High | 6hrs | 7hrs | 7hrs |
+| Create Front-end Applications | Medium | 5hrs | 6hrs | 6hrs |
+| Auth | High | 9hrs | 10hrs | 10hrs |
+| PMVP | Medium | 10hrs | 2hrs | 2hrs |
+| Psuedocoding | Medium | 6hrs | 6hrs | 6hrs |
+| Seed data | Medium | 3hrs | 4hrs | 4hrs |
+| CSS | Medium | 8hrs | 8hrs| 8hrs |
+| Total | High | 50hrs | 50hrs | 48hrs |
 
 
 ### **Schedule**
@@ -140,4 +140,4 @@ The Marshall Hub *is a website based off "The Marshall Project" thats tracks th
 
 ## **Code Issues & Resolutions**
 
-> Use this section to list of all major issues encountered and their resolution, if you'd like.
+> I had an issue with getting my associations together as im still gaining better understandings of the process in general.
