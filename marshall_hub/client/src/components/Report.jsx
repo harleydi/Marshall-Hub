@@ -19,7 +19,7 @@ class Report extends Component {
     renderData = (aCase) => (
         <React.Fragment>
             <div className='caseDetails'>
-            <div>
+            <div className='vitcim'>
                 <h2 className='roleHeader'>VICTIM</h2>
                 <h2>{aCase.victim_name}</h2>
                 <h2>{aCase.victim_age}</h2>
@@ -33,7 +33,7 @@ class Report extends Component {
                 - Number of cops Present `cops_present` integer
                 - Photos `photo_url` string */}
             </div>
-            <div>
+            <div className='officer'>
                 <h2 className='roleHeader'>OFFICER</h2>
                 <h2>{aCase.officer_name}</h2>
                 <h2>{aCase.office_age}</h2>

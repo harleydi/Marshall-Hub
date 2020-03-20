@@ -25,7 +25,7 @@ class Profile extends Component {
             <h1 className='username'>{this.state.user.username.toUpperCase()}</h1>
             <p className='casenum'>Total Cases: {this.state.user.cases.length}</p>
             {this.state.user.cases.map(Case => (
-                <div>
+                <div className='profile list'>
                     <Link to={`/cases/${Case.id}`} className='box-links'>
                         <div className='box box-text'>
                             <h2 className='casename'>{Case.victim_name}</h2>
@@ -36,6 +36,8 @@ class Profile extends Component {
                     
                 
             ))}
+
+            
         </div>
         
     )
