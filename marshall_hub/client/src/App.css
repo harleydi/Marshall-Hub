@@ -15,7 +15,7 @@
   margin-top: 30px;
   font-family: 'Poppins', sans-serif;
   flex-direction: column-reverse;
-  /* text-decoration: none; */
+  margin-top: auto;
 }
 
 .mainNav {
@@ -232,6 +232,15 @@
   font-weight: 300;
 }
 
+.postSubmit {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 20vw;
+  height: 5vh;
+  background-color: lightgray;
+  font-size: large;
+  border-radius: 10px;
+}
 
 /*  */
 /* PROFILE */

@@ -82,6 +82,7 @@ class Post extends Component {
                         name='victim_age'
                         value={this.state.case.victim_age}
                         onChange={this.handleChange}
+                        placeholder='Age'
                         className='postFeild' 
                     />
 
@@ -121,6 +122,8 @@ class Post extends Component {
                         name='office_age'
                         value={this.state.case.office_age}
                         onChange={this.handleChange} 
+                        placeholder='Age'
+                        className='postFeild'
                     />
 
                     <label className='postLabel'>Officer Ethnic</label>
@@ -171,6 +174,8 @@ class Post extends Component {
                         name='cops_present'
                         value={this.state.case.cops_present}
                         onChange={this.handleChange} 
+                        placeholder='Cops Present'
+                        className='postFeild'
                     />
 
                     <label className='postLabel'>Incident Location</label>
@@ -193,6 +198,7 @@ class Post extends Component {
 
                     <input
                         type='submit'
+                        className='postSubmit'
                     />
                 </form>
             </div>
