@@ -18,12 +18,13 @@ class Report extends Component {
 
     renderData = (aCase) => (
         <React.Fragment>
+            <img src='https://images.pexels.com/photos/428333/pexels-photo-428333.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260' className='reportImg' />
             <div className='caseDetails'>
             <div className='vitcim'>
                 <h2 className='roleHeader'>VICTIM</h2>
-                <h2>{aCase.victim_name}</h2>
-                <h2>{aCase.victim_age}</h2>
-                <h2>{aCase.victim_ethnic}</h2>
+                <h2 className='reportInfo'>{aCase.victim_name}</h2>
+                <h2 className='reportInfo'>{aCase.victim_age}</h2>
+                <h2 className='reportInfo'>{aCase.victim_ethnic}</h2>
                 {/* -  
                 -  
                 - Area of incident `incident_location` 
@@ -35,15 +36,14 @@ class Report extends Component {
             </div>
             <div className='officer'>
                 <h2 className='roleHeader'>OFFICER</h2>
-                <h2>{aCase.officer_name}</h2>
-                <h2>{aCase.office_age}</h2>
-                <h2>{aCase.officer_ethnic}</h2>
+                <h2 className='reportInfo'>{aCase.officer_name}</h2>
+                <h2 className='reportInfo'>{aCase.office_age}</h2>
+                <h2 className='reportInfo'>{aCase.officer_ethnic}</h2>
             </div>
         </div>
-        <div>
+        <div className='details'>
             <h2 className='roleHeader'>Details</h2>
-            <h2>{aCase.description}</h2>
-            <img src={aCase.photo_url} />
+            <h2 className='reportInfo'>{aCase.description}</h2>
         </div>
         </React.Fragment>
         

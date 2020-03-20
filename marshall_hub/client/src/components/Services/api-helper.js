@@ -78,6 +78,12 @@ const destroyCase = async (id) => {
     return response.data
 }
 
+const getUserPhoto = async () => {
+    const response = await api.get(`https://randomuser.me/api/`)
+    return response.data.results[0].picture.medium
+}
+console.log(getUserPhoto())
+
 export {
     createUser,
     readAllUsers,
@@ -87,5 +93,6 @@ export {
     readUser,
     createCase,
     editCase,
-    destroyCase
+    destroyCase,
+    getUserPhoto
 }

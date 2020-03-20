@@ -36,6 +36,10 @@
   color: black;
 }
 
+.post:hover {
+  color: lightslategray;
+}
+
 .hub {
   margin: 0 5vw;
   font-size: larger;
@@ -43,11 +47,19 @@
   color: black;
 }
 
+.hub:hover {
+  color: lightslategray;
+}
+
 .profile {
   margin: 0 5vw;
   font-size: larger;
   text-decoration: none;
   color: black;
+}
+
+.profile:hover {
+  color: lightslategray;
 }
 
 .divider {
@@ -70,6 +82,10 @@
   font-size: small;
   color: red;
   margin: 10px;
+}
+
+.signupLink:hover {
+  color: black;
 }
 
 .signup-form {
@@ -98,6 +114,10 @@
   font-size: small;
   color: red;
   margin: 10px;
+}
+
+.loginLink:hover {
+  color: black;
 }
 
 .loginForm {
@@ -179,10 +199,21 @@
 /* CASE PAGE */
 /*  */
 
-
 .caseDetails {
   display: flex;
-  /* justify-content: space-between; */
+  justify-content: space-around;
+}
+
+.reportImg {
+  /* display: flex; */
+  width: 60%;
+  height: 50vh;
+  margin-top: 30px;
+  margin-left: 180px;
+}
+
+.reportInfo {
+  font-weight: 200;
 }
 
 .victim {
@@ -192,6 +223,12 @@
 /* .officer {
   display: flex;
 } */
+
+.details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
 /* .case {
   background: black;
