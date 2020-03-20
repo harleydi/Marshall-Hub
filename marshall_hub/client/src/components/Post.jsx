@@ -96,7 +96,7 @@ class Post extends Component {
                         className='postFeild' 
                     />
 
-                    <label>Detained</label>
+                    <label className='postLabel'>Detained</label>
                     <input
                         type='checkbox'
                         name='detained'
@@ -116,7 +116,7 @@ class Post extends Component {
                         className='postFeild' 
                     />
 
-                    <label>Officer Age</label>
+                    <label className='postLabel'>Officer Age</label>
                     <input
                         type='text'
                         name='office_age'
@@ -168,7 +168,7 @@ class Post extends Component {
                         className='postFeild' 
                     />
 
-                    <label>Cops Present</label>
+                    <label className='postLabel'>Cops Present</label>
                     <input
                         type='text'
                         name='cops_present'
@@ -188,7 +188,7 @@ class Post extends Component {
                         className='postFeild' 
                     />
 
-                    <label>Miranda Rights</label>
+                    <label className='postLabel'>Miranda Rights</label>
                     <input
                         type='checkbox'
                         name='miranda_rights'
